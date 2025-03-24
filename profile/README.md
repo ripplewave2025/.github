@@ -44,16 +44,20 @@ If you want to cite the Munich Quantum Toolkit, please use the following BibTeX 
 | [`mqt-qmap`]          |          ![gh.mqt.qmap.release][] |          ![gh.mqt.qmap.forks][] |          ![gh.mqt.qmap.stars][] |
 | [`mqt-qcec`]          |          ![gh.mqt.qcec.release][] |          ![gh.mqt.qcec.forks][] |          ![gh.mqt.qcec.stars][] |
 | [`mqt-bench`]         |         ![gh.mqt.bench.release][] |         ![gh.mqt.bench.forks][] |         ![gh.mqt.bench.stars][] |
-| [`mqt-predictor`]     |     ![gh.mqt.predictor.release][] |     ![gh.mqt.predictor.forks][] |     ![gh.mqt.predictor.stars][] |
 | [`mqt-core`]          |          ![gh.mqt.core.release][] |          ![gh.mqt.core.forks][] |          ![gh.mqt.core.stars][] |
+| [`mqt-predictor`]     |     ![gh.mqt.predictor.release][] |     ![gh.mqt.predictor.forks][] |     ![gh.mqt.predictor.stars][] |
 | [`mqt-problemsolver`] | ![gh.mqt.problemsolver.release][] | ![gh.mqt.problemsolver.forks][] | ![gh.mqt.problemsolver.stars][] |
 | [`mqt-syrec`]         |         ![gh.mqt.syrec.release][] |         ![gh.mqt.syrec.forks][] |         ![gh.mqt.syrec.stars][] |
 | [`mqt-ddvis`]         |         ![gh.mqt.ddvis.release][] |         ![gh.mqt.ddvis.forks][] |         ![gh.mqt.ddvis.stars][] |
-| [`mqt-qusat`]         |         ![gh.mqt.qusat.release][] |         ![gh.mqt.qusat.forks][] |         ![gh.mqt.qusat.stars][] |
-| [`mqt-dasqa`]         |         ![gh.mqt.dasqa.release][] |         ![gh.mqt.dasqa.forks][] |         ![gh.mqt.dasqa.stars][] |
+| [`mqt-qao`]           |           ![gh.mqt.qao.release][] |           ![gh.mqt.qao.forks][] |           ![gh.mqt.qao.stars][] |
 | [`mqt-qudits`]        |        ![gh.mqt.qudits.release][] |        ![gh.mqt.qudits.forks][] |        ![gh.mqt.qudits.stars][] |
 | [`mqt-qubomaker`]     |     ![gh.mqt.qubomaker.release][] |     ![gh.mqt.qubomaker.forks][] |     ![gh.mqt.qubomaker.stars][] |
+| [`mqt-qusat`]         |         ![gh.mqt.qusat.release][] |         ![gh.mqt.qusat.forks][] |         ![gh.mqt.qusat.stars][] |
 | [`mqt-ionshuttler`]   |   ![gh.mqt.ionshuttler.release][] |   ![gh.mqt.ionshuttler.forks][] |   ![gh.mqt.ionshuttler.stars][] |
+| [`mqt-dasqa`]         |         ![gh.mqt.dasqa.release][] |         ![gh.mqt.dasqa.forks][] |         ![gh.mqt.dasqa.stars][] |
+| [`mqt-debugger`]      |      ![gh.mqt.debugger.release][] |      ![gh.mqt.debugger.forks][] |      ![gh.mqt.debugger.stars][] |
+| [`mqt-yaqs`]          |          ![gh.mqt.yaqs.release][] |          ![gh.mqt.yaqs.forks][] |          ![gh.mqt.yaqs.stars][] |
+| [`mqt-workflows`]     |     ![gh.mqt.workflows.release][] |     ![gh.mqt.workflows.forks][] |     ![gh.mqt.workflows.stars][] |
 
 [`mqt-ddsim`]: https://github.com/cda-tum/mqt-ddsim
 [`mqt-qcec`]: https://github.com/cda-tum/mqt-qcec
@@ -70,6 +74,10 @@ If you want to cite the Munich Quantum Toolkit, please use the following BibTeX 
 [`mqt-ionshuttler`]: https://github.com/cda-tum/mqt-ionshuttler
 [`mqt-qubomaker`]: https://github.com/cda-tum/mqt-qubomaker
 [`mqt-qudits`]: https://github.com/cda-tum/mqt-qudits
+[`mqt-yaqs`]: https://github.com/cda-tum/mqt-yaqs
+[`mqt-debugger`]: https://github.com/cda-tum/mqt-debugger
+[`mqt-workflows`]: https://github.com/cda-tum/mqt-workflows
+[`mqt-qao`]: https://github.com/cda-tum/mqt-qao
 [gh.mqt.ddsim.release]: https://img.shields.io/github/v/release/cda-tum/mqt-ddsim?label=%20&style=flat-square
 [gh.mqt.ddsim.forks]: https://img.shields.io/github/forks/cda-tum/mqt-ddsim?label=%20&style=flat-square
 [gh.mqt.ddsim.stars]: https://img.shields.io/github/stars/cda-tum/mqt-ddsim?label=%20&style=flat-square
@@ -115,6 +123,18 @@ If you want to cite the Munich Quantum Toolkit, please use the following BibTeX 
 [gh.mqt.qubomaker.release]: https://img.shields.io/github/v/release/cda-tum/mqt-qubomaker?label=%20&style=flat-square
 [gh.mqt.qubomaker.forks]: https://img.shields.io/github/forks/cda-tum/mqt-qubomaker?label=%20&style=flat-square
 [gh.mqt.qubomaker.stars]: https://img.shields.io/github/stars/cda-tum/mqt-qubomaker?label=%20&style=flat-square
+[gh.mqt.yaqs.release]: https://img.shields.io/github/v/release/cda-tum/mqt-yaqs?label=%20&style=flat-square
+[gh.mqt.yaqs.forks]: https://img.shields.io/github/forks/cda-tum/mqt-yaqs?label=%20&style=flat-square
+[gh.mqt.yaqs.stars]: https://img.shields.io/github/stars/cda-tum/mqt-yaqs?label=%20&style=flat-square
+[gh.mqt.debugger.release]: https://img.shields.io/github/v/release/cda-tum/mqt-debugger?label=%20&style=flat-square
+[gh.mqt.debugger.forks]: https://img.shields.io/github/forks/cda-tum/mqt-debugger?label=%20&style=flat-square
+[gh.mqt.debugger.stars]: https://img.shields.io/github/stars/cda-tum/mqt-debugger?label=%20&style=flat-square
+[gh.mqt.workflows.release]: https://img.shields.io/github/v/release/cda-tum/mqt-workflows?label=%20&style=flat-square
+[gh.mqt.workflows.forks]: https://img.shields.io/github/forks/cda-tum/mqt-workflows?label=%20&style=flat-square
+[gh.mqt.workflows.stars]: https://img.shields.io/github/stars/cda-tum/mqt-workflows?label=%20&style=flat-square
+[gh.mqt.qao.release]: https://img.shields.io/github/v/release/cda-tum/mqt-qao?label=%20&style=flat-square
+[gh.mqt.qao.forks]: https://img.shields.io/github/forks/cda-tum/mqt-qao?label=%20&style=flat-square
+[gh.mqt.qao.stars]: https://img.shields.io/github/stars/cda-tum/mqt-qao?label=%20&style=flat-square
 
 ## PyPI Downloads
 
@@ -124,13 +144,17 @@ If you want to cite the Munich Quantum Toolkit, please use the following BibTeX 
 | [`mqt.qmap`][pypi.mqt.qmap.stats]                   |          ![pypi.mqt.qmap.version][] |          ![pypi.mqt.qmap.weekly][] |          ![pypi.mqt.qmap.monthly][] |                   [![pypi.mqt.qmap.total]](https://pepy.tech/project/mqt.qmap) |
 | [`mqt.ddsim`][pypi.mqt.ddsim.stats]                 |         ![pypi.mqt.ddsim.version][] |         ![pypi.mqt.ddsim.weekly][] |         ![pypi.mqt.ddsim.monthly][] |                 [![pypi.mqt.ddsim.total]](https://pepy.tech/project/mqt.ddsim) |
 | [`mqt.core`][pypi.mqt.core.stats]                   |          ![pypi.mqt.core.version][] |          ![pypi.mqt.core.weekly][] |          ![pypi.mqt.core.monthly][] |                   [![pypi.mqt.core.total]](https://pepy.tech/project/mqt.core) |
+| [`mqt.qecc`][pypi.mqt.qecc.stats]                   |          ![pypi.mqt.qecc.version][] |          ![pypi.mqt.qecc.weekly][] |          ![pypi.mqt.qecc.monthly][] |                   [![pypi.mqt.qecc.total]](https://pepy.tech/project/mqt.qecc) |
 | [`mqt.syrec`][pypi.mqt.syrec.stats]                 |         ![pypi.mqt.syrec.version][] |         ![pypi.mqt.syrec.weekly][] |         ![pypi.mqt.syrec.monthly][] |                 [![pypi.mqt.syrec.total]](https://pepy.tech/project/mqt.syrec) |
 | [`mqt.qusat`][pypi.mqt.qusat.stats]                 |         ![pypi.mqt.qusat.version][] |         ![pypi.mqt.qusat.weekly][] |         ![pypi.mqt.qusat.monthly][] |                 [![pypi.mqt.qusat.total]](https://pepy.tech/project/mqt.qusat) |
-| [`mqt.qecc`][pypi.mqt.qecc.stats]                   |          ![pypi.mqt.qecc.version][] |          ![pypi.mqt.qecc.weekly][] |          ![pypi.mqt.qecc.monthly][] |                   [![pypi.mqt.qecc.total]](https://pepy.tech/project/mqt.qecc) |
 | [`mqt.bench`][pypi.mqt.bench.stats]                 |         ![pypi.mqt.bench.version][] |         ![pypi.mqt.bench.weekly][] |         ![pypi.mqt.bench.monthly][] |                 [![pypi.mqt.bench.total]](https://pepy.tech/project/mqt.bench) |
-| [`mqt.predictor`][pypi.mqt.predictor.stats]         |     ![pypi.mqt.predictor.version][] |     ![pypi.mqt.predictor.weekly][] |     ![pypi.mqt.predictor.monthly][] |         [![pypi.mqt.predictor.total]](https://pepy.tech/project/mqt.predictor) |
 | [`mqt.qudits`][pypi.mqt.qudits.stats]               |        ![pypi.mqt.qudits.version][] |        ![pypi.mqt.qudits.weekly][] |        ![pypi.mqt.qudits.monthly][] |               [![pypi.mqt.qudits.total]](https://pepy.tech/project/mqt.qudits) |
+| [`mqt.debugger`][pypi.mqt.debugger.stats]           |      ![pypi.mqt.debugger.version][] |      ![pypi.mqt.debugger.weekly][] |      ![pypi.mqt.debugger.monthly][] |           [![pypi.mqt.debugger.total]](https://pepy.tech/project/mqt.debugger) |
+| [`mqt.predictor`][pypi.mqt.predictor.stats]         |     ![pypi.mqt.predictor.version][] |     ![pypi.mqt.predictor.weekly][] |     ![pypi.mqt.predictor.monthly][] |         [![pypi.mqt.predictor.total]](https://pepy.tech/project/mqt.predictor) |
 | [`mqt.problemsolver`][pypi.mqt.problemsolver.stats] | ![pypi.mqt.problemsolver.version][] | ![pypi.mqt.problemsolver.weekly][] | ![pypi.mqt.problemsolver.monthly][] | [![pypi.mqt.problemsolver.total]](https://pepy.tech/project/mqt.problemsolver) |
+| [`mqt.qubomaker`][pypi.mqt.qubomaker.stats]         |     ![pypi.mqt.qubomaker.version][] |     ![pypi.mqt.qubomaker.weekly][] |     ![pypi.mqt.qubomaker.monthly][] |         [![pypi.mqt.qubomaker.total]](https://pepy.tech/project/mqt.qubomaker) |
+| [`mqt.qao`][pypi.mqt.qao.stats]                     |           ![pypi.mqt.qao.version][] |           ![pypi.mqt.qao.weekly][] |           ![pypi.mqt.qao.monthly][] |                     [![pypi.mqt.qao.total]](https://pepy.tech/project/mqt.qao) |
+| [`mqt.yaqs`][pypi.mqt.yaqs.stats]                   |          ![pypi.mqt.yaqs.version][] |          ![pypi.mqt.yaqs.weekly][] |          ![pypi.mqt.yaqs.monthly][] |                   [![pypi.mqt.yaqs.total]](https://pepy.tech/project/mqt.yaqs) |
 
 [pypi.mqt.ddsim.stats]: https://pypistats.org/packages/mqt-ddsim
 [pypi.mqt.ddsim.version]: https://img.shields.io/pypi/v/mqt.ddsim?label=%20&style=flat-square
@@ -187,6 +211,26 @@ If you want to cite the Munich Quantum Toolkit, please use the following BibTeX 
 [pypi.mqt.qudits.weekly]: https://img.shields.io/pypi/dw/mqt.qudits?label=%20&style=flat-square
 [pypi.mqt.qudits.monthly]: https://img.shields.io/pypi/dm/mqt.qudits?label=%20&style=flat-square
 [pypi.mqt.qudits.total]: https://static.pepy.tech/personalized-badge/mqt-qudits?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
+[pypi.mqt.yaqs.stats]: https://pypistats.org/packages/mqt-yaqs
+[pypi.mqt.yaqs.version]: https://img.shields.io/pypi/v/mqt.yaqs?label=%20&style=flat-square
+[pypi.mqt.yaqs.weekly]: https://img.shields.io/pypi/dw/mqt.yaqs?label=%20&style=flat-square
+[pypi.mqt.yaqs.monthly]: https://img.shields.io/pypi/dm/mqt.yaqs?label=%20&style=flat-square
+[pypi.mqt.yaqs.total]: https://static.pepy.tech/personalized-badge/mqt-yaqs?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
+[pypi.mqt.qubomaker.stats]: https://pypistats.org/packages/mqt-qubomaker
+[pypi.mqt.qubomaker.version]: https://img.shields.io/pypi/v/mqt.qubomaker?label=%20&style=flat-square
+[pypi.mqt.qubomaker.weekly]: https://img.shields.io/pypi/dw/mqt.qubomaker?label=%20&style=flat-square
+[pypi.mqt.qubomaker.monthly]: https://img.shields.io/pypi/dm/mqt.qubomaker?label=%20&style=flat-square
+[pypi.mqt.qubomaker.total]: https://static.pepy.tech/personalized-badge/mqt-qubomaker?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
+[pypi.mqt.debugger.stats]: https://pypistats.org/packages/mqt-debugger
+[pypi.mqt.debugger.version]: https://img.shields.io/pypi/v/mqt-debugger?label=%20&style=flat-square
+[pypi.mqt.debugger.weekly]: https://img.shields.io/pypi/dw/mqt-debugger?label=%20&style=flat-square
+[pypi.mqt.debugger.monthly]: https://img.shields.io/pypi/dm/mqt-debugger?label=%20&style=flat-square
+[pypi.mqt.debugger.total]: https://static.pepy.tech/personalized-badge/mqt-debugger?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
+[pypi.mqt.qao.stats]: https://pypistats.org/packages/mqt-qao
+[pypi.mqt.qao.version]: https://img.shields.io/pypi/v/mqt.qao?label=%20&style=flat-square
+[pypi.mqt.qao.weekly]: https://img.shields.io/pypi/dw/mqt.qao?label=%20&style=flat-square
+[pypi.mqt.qao.monthly]: https://img.shields.io/pypi/dm/mqt.qao?label=%20&style=flat-square
+[pypi.mqt.qao.total]: https://static.pepy.tech/personalized-badge/mqt-qao?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
 
 <!-- SPHINX-END -->
 
