@@ -321,15 +321,14 @@
   archiveprefix = {arxiv},
 }
 
-@misc{quetschlichMQTPredictorAutomatic2023,
-  title = {{{MQT Predictor}}: {{Automatic}} device selection with device-specific circuit compilation for quantum computing},
+@article{quetschlichMQTPredictorAutomatic2024,
+  title = {{{MQT Predictor}}: {{Automatic Device Selection}} with {{Device-Specific Circuit Compilation}} for {{Quantum Computing}}},
   shorttitle = {{{MQT Predictor}}},
   author = {Quetschlich, Nils and Burgholzer, Lukas and Wille, Robert},
-  year = {2023},
-  number = {arXiv:2310.06889},
-  eprint = {2310.06889},
-  primaryclass = {quant-ph},
-  archiveprefix = {arxiv},
+  year = {2024},
+  month = jun,
+  journal = tqc,
+  doi = {10.1145/3673241},
 }
 
 @inproceedings{quetschlichReducingCompilationTime2023,
@@ -359,11 +358,13 @@
   year = {2024}
 }
 
-@misc{schoenbergerShuttlingScalableTrappedIon2024,
+@article{schoenbergerShuttlingScalableTrappedIon2024,
   title = {Shuttling for {{Scalable Trapped-Ion Quantum Computers}}},
   author = {Schoenberger, Daniel and Hillmich, Stefan and Brandl, Matthias and Wille, Robert},
   year = {2024},
-  number = {arXiv:2402.14065},
+  journal = tcad,
+  issn = {0278-0070, 1937-4151},
+  doi = {10.1109/TCAD.2024.3513262},
   eprint = {2402.14065},
   primaryclass = {quant-ph},
   archiveprefix = {arxiv}
@@ -551,14 +552,21 @@
   doi = {10.1109/QCE57702.2023.00039},
 }
 
-@misc{berentDecodingQuantumColor2023,
+@article{berentDecodingQuantumColor2024,
   title = {Decoding quantum color codes with {{MaxSAT}}},
-  author = {Berent, Lucas and Burgholzer, Lukas and Derks, Peter-Jan H. S. and Eisert, Jens and Wille, Robert},
-  year = {2023},
+  author = {Berent, Lucas and Burgholzer, Lukas and Derks, Peter-Jan H.S. and Eisert, Jens and Wille, Robert},
+  year = {2024},
+  month = oct,
+  journal = Quantum,
+  volume = {8},
+  pages = {1506},
+  issn = {2521-327X},
+  doi = {10.22331/q-2024-10-23-1506},
   eprint = {2303.14237},
   primaryclass = {quant-ph},
   archiveprefix = {arxiv},
 }
+
 
 @inproceedings{berentSoftwareToolsDecoding2023,
   title = {Software tools for decoding quantum low-density parity check codes},
@@ -675,29 +683,38 @@
   doi = {10.22331/q-2022-05-09-709},
 }
 
-@misc{quetschlichUtilizingResourceEstimation2024,
+@inproceedings{quetschlichUtilizingResourceEstimation2024,
   title = {Utilizing resource estimation for the development of quantum computing applications},
   author = {Quetschlich, Nils and Soeken, Mathias and Murali, Prakash and Wille, Robert},
   year = {2024},
+  booktitle = qce,
   eprint = {2402.12434},
   primaryclass = {quant-ph},
   archiveprefix = {arxiv},
 }
 
-@misc{quetschlichApplicationawareQuantumCircuit2024,
+@inproceedings{quetschlichApplicationawareQuantumCircuit2024,
   title = {Towards application-aware quantum circuit compilation},
   author = {Quetschlich, Nils and Kiwit, Florian J. and Wolf, Maximilian A. and Riofrio, Carlos A. and Burgholzer, Lukas and Luckow, Andre and Wille, Robert},
   year = {2024},
+  booktitle = qsw,
   eprint = {2404.12433},
   primaryclass = {quant-ph},
   archiveprefix = {arxiv},
+  doi = {10.1109/QSW62656.2024.00028},
 }
 
-@misc{berentAnalogInformationDecoding2023,
-  title = {Analog information decoding of bosonic quantum {{LDPC}} codes},
+@article{berentAnalogInformationDecoding2024,
+  title = {Analog {{Information Decoding}} of {{Bosonic Quantum Low-Density Parity-Check Codes}}},
   author = {Berent, Lucas and Hillmann, Timo and Eisert, Jens and Wille, Robert and Roffe, Joschka},
-  year = {2023},
-  number = {arXiv:2311.01328},
+  year = {2024},
+  month = may,
+  journal = {PRX Quantum},
+  volume = {5},
+  number = {2},
+  pages = {020349},
+  issn = {2691-3399},
+  doi = {10.1103/PRXQuantum.5.020349},
   eprint = {2311.01328},
   primaryclass = {quant-ph},
   archiveprefix = {arxiv},
@@ -754,4 +771,281 @@
   author = {Wille, Robert and Hillmich, Stefan and Burgholzer, Lukas},
   year = {2020},
   doi = {10.1109/ISCAS45731.2020.9180791},
+}
+
+@article{adarshSyReCSynthesizerMQT2022,
+  title = {{{SyReC Synthesizer}}: {{An MQT}} tool for synthesis of reversible circuits},
+  author = {Adarsh, Smaran and Burgholzer, Lukas and Manjunath, Tanmay and Wille, Robert},
+  year = {2022},
+  journal = {Software Impacts},
+  doi = {10.1016/j.simpa.2022.10045},
+}
+
+@article{burgholzerCharacteristicsReversibleCircuits2022,
+  title = {Characteristics of reversible circuits for error detection},
+  author = {Burgholzer, Lukas and Wille, Robert and Kueng, Richard},
+  year = {2022},
+  month = apr,
+  journal = Array,
+  eprint = {2012.02037},
+  primaryclass = {cs},
+  doi = {10.1016/j.array.2022.100165},
+  archiveprefix = {arxiv},
+}
+
+@phdthesis{burgholzerDesignAutomationTools2023,
+  title = {Design {{Automation Tools}} and {{Software}} for {{Quantum Computing}}},
+  author = {Burgholzer, Lukas},
+  year = {2023},
+  month = sep,
+  school = {Johannes Kepler University Linz}
+}
+
+@inproceedings{burgholzerExploitingReversibleComputing2023,
+  title = {Exploiting reversible computing for verification: {{Potential}}, possible paths, and consequences},
+  shorttitle = {Exploiting reversible computing for verification},
+  booktitle = aspdac,
+  author = {Burgholzer, Lukas and Wille, Robert},
+  year = {2023},
+  doi = {10.1145/3566097.3567914},
+}
+
+@inproceedings{burgholzerHandlingNonunitariesQuantum2022,
+  title = {Handling non-unitaries in quantum circuit equivalence checking},
+  booktitle = dac,
+  author = {Burgholzer, Lukas and Wille, Robert},
+  year = {2022},
+  month = jul,
+  doi = {10.1145/3489517.3530482},
+}
+
+@article{burgholzerQCECJKQTool2021,
+  title = {{{QCEC}}: {{A JKQ}} tool for quantum circuit equivalence checking},
+  author = {Burgholzer, Lukas and Wille, Robert},
+  year = {2021},
+  month = feb,
+  journal = {Software Impacts},
+  doi = {10.1016/j.simpa.2020.100051},
+}
+
+@misc{burgholzerTensorNetworksDecision2023,
+  title = {Tensor {{Networks}} or {{Decision Diagrams}}? {{Guidelines}} for {{Classical Quantum Circuit Simulation}}},
+  shorttitle = {Tensor {{Networks}} or {{Decision Diagrams}}?},
+  author = {Burgholzer, Lukas and Ploier, Alexander and Wille, Robert},
+  year = {2023},
+  month = feb,
+  eprint = {2302.06616},
+  primaryclass = {quant-ph},
+  archiveprefix = {arxiv},
+}
+
+@inproceedings{grurlArraysVsDecision2020,
+  title = {Arrays vs. {{Decision Diagrams}}: {{A}} case study on quantum circuit simulators},
+  booktitle = ismvl,
+  author = {Grurl, Thomas and Fu{\ss}, J{\"u}rgen and Hillmich, Stefan and Burgholzer, Lukas and Wille, Robert},
+  year = {2020},
+  month = nov,
+  doi = {10.1109/ISMVL49045.2020.000-9},
+}
+
+@inproceedings{hillmichReorderingDecisionDiagrams2022,
+  title = {Reordering {{Decision Diagrams}} for {{Quantum Computing Is Harder Than You Might Think}}},
+  booktitle = rc_conf,
+  author = {Hillmich, Stefan and Burgholzer, Lukas and St{\"o}gm{\"u}ller, Florian and Wille, Robert},
+  year = {2022},
+  month = jul,
+  doi = {10.1007/978-3-031-09005-9_7},
+}
+
+@inproceedings{poggelRecommendingSolutionPaths2023,
+  title = {Recommending {{Solution Paths}} for {{Solving Optimization Problems}} with {{Quantum Computing}}},
+  booktitle = qsw,
+  author = {Poggel, Benedikt and Quetschlich, Nils and Burgholzer, Lukas and Wille, Robert and Lorenz, Jeanette Miriam},
+  year = {2023},
+  eprint = {2212.11127},
+  primaryclass = {quant-ph},
+  doi = {10.1109/QSW59989.2023.00017},
+  archiveprefix = {arxiv},
+}
+
+@inproceedings{willeBasisDesignTools2022,
+  title = {The basis of design tools for quantum computing},
+  booktitle = dac,
+  author = {Wille, Robert and Burgholzer, Lukas and Hillmich, Stefan and Grurl, Thomas and Ploier, Alexander and Peham, Tom},
+  year = {2022},
+  month = jul,
+  doi = {10.1145/3489517.3530627},
+}
+
+@inproceedings{willeJKQJKUTools2020,
+  title = {{{JKQ}}: {{JKU}} tools for quantum computing},
+  booktitle = iccad,
+  author = {Wille, Robert and Hillmich, Stefan and Burgholzer, Lukas},
+  year = {2020},
+  month = nov,
+  doi = {10.1145/3400302.3415746},
+}
+
+@inproceedings{willeMQTQMAPEfficient2023,
+  title = {{{MQT QMAP}}: {{Efficient}} quantum circuit mapping},
+  booktitle = ispd,
+  author = {Wille, Robert and Burgholzer, Lukas},
+  year = {2023},
+  doi = {10.1145/3569052.3578928},
+  keywords = {conference,lukas}
+}
+
+@inproceedings{volpeAutomaticFrameworkSolving2024,
+  title = {Towards an {{Automatic Framework}} for {{Solving Optimization Problems}} with {{Quantum Computers}}},
+  booktitle = qsw,
+  author = {Volpe, Deborah and Quetschlich, Nils and Graziano, Mariagrazia and Turvani, Giovanna and Wille, Robert},
+  year = {2024},
+  month = jul,
+  pages = {46--57},
+  publisher = IEEE,
+  address = {Shenzhen, China},
+  doi = {10.1109/QSW62656.2024.00019},
+  isbn = {9798350368475},
+  file = {/Users/burgholzer/Zotero/storage/8KK4IAQQ/Volpe et al. - 2024 - Towards an Automatic Framework for Solving Optimiz.pdf}
+}
+
+@inproceedings{staudacherMulticontrolledPhaseGate2024,
+  title = {Multi-controlled {{Phase Gate Synthesis}} with {{ZX-calculus}} applied to {{Neutral Atom Hardware}}},
+  booktitle = {Int'l {{Conf}}. on {{Quantum Physics}} and {{Logic}}},
+  author = {Staudacher, Korbinian and Schmid, Ludwig and Zeiher, Johannes and Wille, Robert and Kranzlm{\"u}ller, Dieter},
+  year = {2024},
+  month = aug,
+  volume = {406},
+  pages = {96--116},
+  doi = {10.4204/EPTCS.406.5},
+}
+
+@inproceedings{jiangFlatDDHighPerformanceQuantum2024,
+  title = {{{FlatDD}}: {{A High-Performance Quantum Circuit Simulator}} using {{Decision Diagram}} and {{Flat Array}}},
+  shorttitle = {{{FlatDD}}},
+  booktitle = {Int'l {{Conf}}. on {{Parallel Processing}}},
+  author = {Jiang, Shui and Fu, Rongliang and Burgholzer, Lukas and Wille, Robert and Ho, Tsung-Yi and Huang, Tsung-Wei},
+  year = {2024},
+  month = aug,
+  pages = {388--399},
+  address = {Gotland Sweden},
+  doi = {10.1145/3673038.3673073},
+  isbn = {9798400717932},
+}
+
+@inproceedings{quetschlichEquivalenceCheckingClassical2024,
+  title = {Towards {{Equivalence Checking}} of {{Classical Circuits Using Quantum Computing}}},
+  booktitle = qce,
+  author = {Quetschlich, Nils and Forster, Tobias and Osterwind, Adrian and Helms, Domenik and Wille, Robert},
+  year = {2024},
+  month = aug,
+  eprint = {2408.14539},
+  primaryclass = {quant-ph},
+  archiveprefix = {arxiv},
+}
+
+@inproceedings{stadeAbstractModelEfficient2024,
+  title = {An {{Abstract Model}} and {{Efficient Routing}} for {{Logical Entangling Gates}} on {{Zoned Neutral Atom Architectures}}},
+  booktitle = qce,
+  author = {Stade, Yannick and Schmid, Ludwig and Burgholzer, Lukas and Wille, Robert},
+  year = {2024},
+  month = jul,
+  eprint = {2405.08068},
+  primaryclass = {quant-ph},
+  archiveprefix = {arxiv},
+}
+
+@inproceedings{willeQDMIQuantumDevice2024,
+  title = {{{QDMI}} -- {{Quantum Device Management Interface}}: {{Hardware-Software Interface}} for the {{Munich Quantum Software Stack}}},
+  shorttitle = {{{QDMI}} -- {{Quantum Device Management Interface}}},
+  booktitle = qce,
+  author = {Wille, Robert and Schmid, Ludwig and Stade, Yannick and Echavarria, Jorge and Schulz, Martin and Schulz, Laura Brandon and Burgholzer, Lukas},
+  year = {2024},
+}
+
+@misc{pehamAutomatedSynthesisFaultTolerant2024,
+  title = {Automated {{Synthesis}} of {{Fault-Tolerant State Preparation Circuits}} for {{Quantum Error Correction Codes}}},
+  author = {Peham, Tom and Schmid, Ludwig and Berent, Lucas and M{\"u}ller, Markus and Wille, Robert},
+  year = {2024},
+  month = sep,
+  number = {arXiv:2408.11894},
+  eprint = {2408.11894},
+  primaryclass = {quant-ph},
+  publisher = arXiv,
+  archiveprefix = {arxiv},
+}
+
+@inproceedings{schmidDeterministicFaultTolerantState2025,
+  title = {Deterministic {{Fault-Tolerant State Preparation}} for {{Near-Term Quantum Error Correction}}: {{Automatic Synthesis Using Boolean Satisfiability}}},
+  shorttitle = {Deterministic {{Fault-Tolerant State Preparation}} for {{Near-Term Quantum Error Correction}}},
+  booktitle = date,
+  author = {Schmid, Ludwig and Peham, Tom and Berent, Lucas and M{\"u}ller, Markus and Wille, Robert},
+  year = {2025},
+  eprint = {2408.11894},
+  primaryclass = {quant-ph},
+  archiveprefix = {arxiv},
+}
+
+@inproceedings{stadeOptimalStatePreparation2025,
+  title = {Optimal {{State Preparation}} for {{Logical Arrays}} on {{Zoned Neutral Atom Quantum Computers}}},
+  booktitle = date,
+  author = {Stade, Yannick and Schmid, Ludwig and Burgholzer, Lukas and Wille, Robert},
+  year = {2025},
+  eprint = {2411.09738},
+  primaryclass = {quant-ph},
+  archiveprefix = {arxiv},
+}
+
+@misc{stadeSupportingQIRThoughts2024,
+  title = {Towards {{Supporting QIR}}: {{Thoughts}} on {{Adopting}} the {{Quantum Intermediate Representation}}},
+  shorttitle = {Towards {{Supporting QIR}}},
+  author = {Stade, Yannick and Burgholzer, Lukas and Wille, Robert},
+  year = {2024},
+  month = nov,
+  eprint = {2411.18682},
+  primaryclass = {quant-ph},
+  publisher = arXiv,
+  archiveprefix = {arxiv},
+}
+
+@misc{matoMQTQuditsSoftware2024,
+  title = {{{MQT Qudits}}: {{A Software Framework}} for {{Mixed-Dimensional Quantum Computing}}},
+  shorttitle = {{{MQT Qudits}}},
+  author = {Mato, Kevin and Ringbauer, Martin and Burgholzer, Lukas and Wille, Robert},
+  year = {2024},
+  month = oct,
+  eprint = {2410.02854},
+  primaryclass = {hep-th, physics:quant-ph},
+  archiveprefix = {arxiv},
+}
+
+@misc{rovaraFrameworkFormulatePathfinding2024,
+  title = {A {{Framework}} to {{Formulate Pathfinding Problems}} for {{Quantum Computing}}},
+  author = {Rovara, Damian and Quetschlich, Nils and Wille, Robert},
+  year = {2024},
+  month = apr,
+  eprint = {2404.10820},
+  primaryclass = {quant-ph},
+  archiveprefix = {arxiv},
+}
+
+@inproceedings{sanderStrippingQuantumDecision2024,
+  title = {Stripping {{Quantum Decision Diagrams}} of their {{Identity}}},
+  booktitle = qsw,
+  author = {Sander, Aaron and Florea, Ioan-Albert and Burgholzer, Lukas and Wille, Robert},
+  year = {2024},
+  month = jul,
+  pages = {168--174},
+  doi = {10.1109/QSW62656.2024.00032},
+  isbn = {9798350368475},
+}
+
+@misc{sanderEquivalenceCheckingQuantum2024,
+  title = {Equivalence {{Checking}} of {{Quantum Circuits}} via {{Intermediary Matrix Product Operator}}},
+  author = {Sander, Aaron and Burgholzer, Lukas and Wille, Robert},
+  year = {2024},
+  month = oct,
+  eprint = {2410.10946},
+  primaryclass = {quant-ph},
+  archiveprefix = {arxiv},
 }
