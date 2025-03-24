@@ -11,7 +11,7 @@
 </div>
 </a>
 
-```{include} ../README.md
+```{include} ../profile/README.md
 :start-after: <!-- SPHINX-START -->
 :end-before: <!-- SPHINX-END -->
 ```
