@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2023 Chair for Design Automation, TU Munich
+Copyright (c) 2023 - 2025 Chair for Design Automation, TUM
 Copyright (c) 2025 Munich Quantum Software Company GmbH
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
