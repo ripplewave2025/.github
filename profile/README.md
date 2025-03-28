@@ -9,11 +9,15 @@
 
 # The Munich Quantum Toolkit (MQT)
 
-The [_Munich Quantum Toolkit (MQT)_](https://mqt.readthedocs.io) is a collection of design automation tools and software for quantum computing developed by the [Chair for Design Automation](https://www.cda.cit.tum.de/) at the [Technical University of Munich](https://www.tum.de/).
+The [_Munich Quantum Toolkit (MQT)_](https://mqt.readthedocs.io) is a collection of design automation tools and software for quantum computing
+developed by the [Chair for Design Automation](https://www.cda.cit.tum.de/) at the [Technical University of Munich](https://www.tum.de/),
+as well as the [Munich Quantum Software Company (MQSC)](https://munichquantum.software).
+It is part of the [Munich Quantum Software Stack (MQSS)](https://www.munich-quantum-valley.de/research/research-areas/mqss) ecosystem,
+which is being developed as part of the [Munich Quantum Valley (MQV)](https://www.munich-quantum-valley.de) initiative.
 
 <p align="center">
   <a href="https://mqt.readthedocs.io">
-  <img width=50% src="https://img.shields.io/badge/documentation-blue?style=for-the-badge&logo=read%20the%20docs" alt="Documentation" />
+  <img width=50% src="https://img.shields.io/badge/%20the%20MQT%20Handbook%20@%20RtD-blue?style=for-the-badge&logo=read%20the%20docs" alt="Documentation" />
   </a>
 </p>
 
