@@ -22,10 +22,9 @@ if TYPE_CHECKING:
 
 project = 'mqt'
 author = 'Chair for Design Automation, Technical University of Munich'
-version = '1.0'
-release = '1.0.0'
+version = '1.2'
+release = '1.2.0'
 language = "en"
-project_copyright = "2023, Chair for Design Automation, Technical University of Munich"
 
 master_doc = "index"
 
@@ -108,7 +107,11 @@ class CDAStyle(UnsrtStyle):
         self.abbreviate_names = True
 
     def format_url(self, _e: Entry) -> HRef:  # noqa: PLR6301
-        """Format URL field as a link to the PDF."""
+        """Format URL field as a link to the PDF.
+
+        Returns:
+            The formatted URL field.
+        """
         url = field("url", raw=True)
         return href()[url, "[PDF]"]
 
@@ -125,7 +128,7 @@ copybutton_line_continuation_character = "\\"
 # -- Options for LaTeX output ------------------------------------------------
 
 sd_fontawesome_latex = True
-image_converter_args=["-density", "300"]
+image_converter_args = ["-density", "300"]
 latex_engine = "pdflatex"
 latex_documents = [
     (
@@ -138,14 +141,21 @@ latex_documents = [
 ]
 latex_logo = "_static/mqt_dark.png"
 latex_elements = {
-    "papersize": "letterpaper",
+    "papersize": "a4paper",
     "releasename": "Version",
     "printindex": r"\footnotesize\raggedright\printindex",
     "tableofcontents": "",
     "sphinxsetup": "iconpackage=fontawesome",
-    "extrapackages": r"\usepackage{qrcode,graphicx,calc,amsthm,etoolbox,flushend}",
+    "extrapackages": r"\usepackage{qrcode,graphicx,calc,amsthm,etoolbox,flushend,mathtools}",
     "preamble": r"""
 \patchcmd{\thebibliography}{\addcontentsline{toc}{section}{\refname}}{}{}{}
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}
+\DeclarePairedDelimiter\mket{\lvert}{\rangle}
+\DeclarePairedDelimiter\mbra{\langle}{\rvert}
+\DeclareUnicodeCharacter{03C0}{$\pi$}
+
+\newcommand*{\ket}[1]{\ensuremath{\mket{\mkern1mu#1}}}
+\newcommand*{\bra}[1]{\ensuremath{\mbra{\mkern1mu#1}}}
 \newtheorem{example}{Example}
 \def\subparagraph{} % because IEEE classes don't define this, but titlesec assumes it's present
     """,
@@ -163,9 +173,9 @@ html_theme = "furo"
 html_title = "The Munich Quantum Toolkit (MQT)"
 html_static_path = ["_static"]
 html_theme_options = {
-    "light_logo": "mqt_dark.png",
-    "dark_logo": "mqt_light.png",
-    "source_repository": "https://github.com/cda-tum/mqt/",
+    "light_logo": "logo-mqt-light.svg",
+    "dark_logo": "logo-mqt-dark.svg",
+    "source_repository": "https://github.com/munich-quantum-toolkit/.github",
     "source_branch": "main",
     "source_directory": "docs/",
     "navigation_with_keys": True,
