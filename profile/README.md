@@ -53,11 +53,11 @@ If you want to cite the Munich Quantum Toolkit, please use the following BibTeX 
 | [`mqt-qudits`]        |        ![gh.mqt.qudits.release][] |        ![gh.mqt.qudits.forks][] |        ![gh.mqt.qudits.stars][] |
 | [`mqt-qubomaker`]     |     ![gh.mqt.qubomaker.release][] |     ![gh.mqt.qubomaker.forks][] |     ![gh.mqt.qubomaker.stars][] |
 | [`mqt-qusat`]         |         ![gh.mqt.qusat.release][] |         ![gh.mqt.qusat.forks][] |         ![gh.mqt.qusat.stars][] |
-| [`mqt-ionshuttler`]   |   ![gh.mqt.ionshuttler.release][] |   ![gh.mqt.ionshuttler.forks][] |   ![gh.mqt.ionshuttler.stars][] |
-| [`mqt-dasqa`]         |         ![gh.mqt.dasqa.release][] |         ![gh.mqt.dasqa.forks][] |         ![gh.mqt.dasqa.stars][] |
 | [`mqt-debugger`]      |      ![gh.mqt.debugger.release][] |      ![gh.mqt.debugger.forks][] |      ![gh.mqt.debugger.stars][] |
 | [`mqt-yaqs`]          |          ![gh.mqt.yaqs.release][] |          ![gh.mqt.yaqs.forks][] |          ![gh.mqt.yaqs.stars][] |
 | [`mqt-workflows`]     |     ![gh.mqt.workflows.release][] |     ![gh.mqt.workflows.forks][] |     ![gh.mqt.workflows.stars][] |
+| [`mqt-ionshuttler`]   |                                   |   ![gh.mqt.ionshuttler.forks][] |   ![gh.mqt.ionshuttler.stars][] |
+| [`mqt-dasqa`]         |                                   |         ![gh.mqt.dasqa.forks][] |         ![gh.mqt.dasqa.stars][] |
 
 [`mqt-ddsim`]: https://github.com/cda-tum/mqt-ddsim
 [`mqt-qcec`]: https://github.com/cda-tum/mqt-qcec
