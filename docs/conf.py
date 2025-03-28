@@ -135,13 +135,13 @@ latex_documents = [
         master_doc,
         "mqt_handbook.tex",
         r"The MQT Handbook\\{\Large A Summary of Design Automation Tools and\\ Software for Quantum Computing}",
-        r"""Chair for Design Automation\\ Technical University of Munich, Germany\\\href{mailto:quantum.cda@xcit.tum.de}{quantum.cda@xcit.tum.de}""",
+        r"""Chair for Design Automation\\ Technical University of Munich, Germany\\\href{mailto:quantum.cda@xcit.tum.de}{quantum.cda@xcit.tum.de}\\Munich Quantum Software Company GmbH\\Garching near Munich, Germany""",
         "howto",
         False),
 ]
-latex_logo = "_static/mqt_dark.png"
+latex_logo = "_static/logo-mqt-light.png"
 latex_elements = {
-    "papersize": "a4paper",
+    "papersize": "letterpaper",
     "releasename": "Version",
     "printindex": r"\footnotesize\raggedright\printindex",
     "tableofcontents": "",
