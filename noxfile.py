@@ -11,6 +11,7 @@
 from __future__ import annotations
 
 import argparse
+import shutil
 
 import nox
 
@@ -21,8 +22,10 @@ nox.options.default_venv_backend = "uv|virtualenv"
 @nox.session(reuse_venv=True)
 def lint(session: nox.Session) -> None:
     """Run the linter."""
-    session.install("pre-commit")
-    session.run("pre-commit", "run", "--all-files", *session.posargs)
+    if shutil.which("pre-commit") is None:
+        session.install("pre-commit")
+
+    session.run("pre-commit", "run", "--all-files", *session.posargs, external=True)
 
 
 @nox.session(reuse_venv=True)
