@@ -1,10 +1,12 @@
 ```{only} html
-<p align="center">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cda-tum/mqt/main/docs/_static/mqt_light.png" width="80%">
-   <img src="https://raw.githubusercontent.com/cda-tum/mqt/main/docs/_static/mqt_dark.png" width="80%">
- </picture>
- </p>
+<div style="margin-top: 0.5em">
+<div class="only-light" align="center">
+  <img src="_static/mqt-banner-light.svg" width="90%" alt="MQT Banner">
+</div>
+<div class="only-dark" align="center">
+  <img src="_static/mqt-banner-dark.svg" width="90%" alt="MQT Banner">
+</div>
+</div>
 ```
 
 # The MQT Handbook
@@ -17,11 +19,15 @@ Quantum computers are becoming a reality and numerous quantum computing applicat
 However, designing and realizing potential applications for these devices in a scalable fashion requires automated, efficient, and user-friendly software tools that cater to the needs of end users, engineers, and physicists at every level of the entire quantum software stack.
 Many of the problems to be tackled in that regard are similar to design problems from the classical realm for which sophisticated design automation tools have been developed in the previous decades.
 
-The _[Munich Quantum Toolkit (MQT)](https://mqt.readthedocs.io)_ is a collection of software tools for quantum computing developed by the [Chair for Design Automation](https://www.cda.cit.tum.de/) at the [Technical University of Munich](https://www.tum.de/) which explicitly utilizes this design automation expertise.
+The _[Munich Quantum Toolkit (MQT)](https://mqt.readthedocs.io)_ is a collection of software tools for quantum computing that explicitly utilizes this design automation expertise.
+It is developed by the [Chair for Design Automation](https://www.cda.cit.tum.de/) at the [Technical University of Munich](https://www.tum.de/)
+as well as the [Munich Quantum Software Company (MQSC)](https://munichquantum.software)
+and is part of the [Munich Quantum Software Stack (MQSS)](https://www.munich-quantum-valley.de/research/research-areas/mqss) ecosystem,
+which is being developed as part of the [Munich Quantum Valley (MQV)](https://www.munich-quantum-valley.de) initiative.
 Our overarching objective is to provide solutions for design tasks across the entire quantum software stack.
 This entails high-level support for end users in realizing their _applications_, efficient methods for the _classical simulation_, _compilation_, and _verification_ of quantum circuits, tools for _quantum error correction_, support for _physical design_, and more.
 These methods are supported by corresponding _data structures_ (such as decision diagrams or the ZX-calculus) and _core methods_ (such as SAT encodings/solvers).
-All of the developed tools are available as open-source implementations and are hosted on [github.com/cda-tum](https://github.com/cda-tum).
+All of the developed tools are available as open-source implementations and are hosted on [github.com/munich-quantum-toolkit](https://github.com/munich-quantum-toolkit).
 
 ````{only} latex
 ```{note}
@@ -101,4 +107,7 @@ MQT Predictor <https://mqt.readthedocs.io/projects/predictor/en/latest>
 MQT Qudits <https://mqt.readthedocs.io/projects/qudits/en/latest>
 MQT QUBOMaker <https://mqt.readthedocs.io/projects/qubomaker/en/latest>
 MQT SyReC <https://mqt.readthedocs.io/projects/syrec/en/latest>
+MQT QAO <https://mqt.readthedocs.io/projects/qao/en/latest>
+MQT YAQS <https://mqt.readthedocs.io/projects/yaqs/en/latest>
+MQT Debugger <https://mqt.readthedocs.io/projects/debugger/en/latest>
 ```
