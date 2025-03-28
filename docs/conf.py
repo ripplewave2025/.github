@@ -1,3 +1,11 @@
+# Copyright (c) 2023 - 2025 Chair for Design Automation, TUM
+# Copyright (c) 2025 Munich Quantum Software Company GmbH
+# All rights reserved.
+#
+# SPDX-License-Identifier: MIT
+#
+# Licensed under the MIT License
+
 """Sphinx configuration file."""
 
 from __future__ import annotations
@@ -14,10 +22,9 @@ if TYPE_CHECKING:
 
 project = 'mqt'
 author = 'Chair for Design Automation, Technical University of Munich'
-version = '1.0'
-release = '1.0.0'
+version = '1.2'
+release = '1.2.0'
 language = "en"
-project_copyright = "2023, Chair for Design Automation, Technical University of Munich"
 
 master_doc = "index"
 
@@ -68,6 +75,9 @@ intersphinx_mapping = {
     "qudits": ("https://mqt.readthedocs.io/projects/qudits/en/latest/", None),
     "qubomaker": ("https://mqt.readthedocs.io/projects/qubomaker/en/latest/", None),
     "syrec": ("https://mqt.readthedocs.io/projects/syrec/en/latest/", None),
+    "qao": ("https://mqt.readthedocs.io/projects/qao/en/latest/", None),
+    "yaqs": ("https://mqt.readthedocs.io/projects/yaqs/en/latest/", None),
+    "debugger": ("https://mqt.readthedocs.io/projects/debugger/en/latest/", None),
 }
 intersphinx_disabled_reftypes = ["*"]
 
@@ -97,7 +107,11 @@ class CDAStyle(UnsrtStyle):
         self.abbreviate_names = True
 
     def format_url(self, _e: Entry) -> HRef:  # noqa: PLR6301
-        """Format URL field as a link to the PDF."""
+        """Format URL field as a link to the PDF.
+
+        Returns:
+            The formatted URL field.
+        """
         url = field("url", raw=True)
         return href()[url, "[PDF]"]
 
@@ -114,27 +128,34 @@ copybutton_line_continuation_character = "\\"
 # -- Options for LaTeX output ------------------------------------------------
 
 sd_fontawesome_latex = True
-image_converter_args=["-density", "300"]
+image_converter_args = ["-density", "300"]
 latex_engine = "pdflatex"
 latex_documents = [
     (
         master_doc,
         "mqt_handbook.tex",
         r"The MQT Handbook\\{\Large A Summary of Design Automation Tools and\\ Software for Quantum Computing}",
-        r"""Chair for Design Automation\\ Technical University of Munich, Germany\\\href{mailto:quantum.cda@xcit.tum.de}{quantum.cda@xcit.tum.de}""",
+        r"""Chair for Design Automation\\ Technical University of Munich, Germany\\\href{mailto:quantum.cda@xcit.tum.de}{quantum.cda@xcit.tum.de}\\Munich Quantum Software Company GmbH\\Garching near Munich, Germany""",
         "howto",
         False),
 ]
-latex_logo = "_static/mqt_dark.png"
+latex_logo = "_static/logo-mqt-light.png"
 latex_elements = {
     "papersize": "letterpaper",
     "releasename": "Version",
     "printindex": r"\footnotesize\raggedright\printindex",
     "tableofcontents": "",
     "sphinxsetup": "iconpackage=fontawesome",
-    "extrapackages": r"\usepackage{qrcode,graphicx,calc,amsthm,etoolbox,flushend}",
+    "extrapackages": r"\usepackage{qrcode,graphicx,calc,amsthm,etoolbox,flushend,mathtools}",
     "preamble": r"""
 \patchcmd{\thebibliography}{\addcontentsline{toc}{section}{\refname}}{}{}{}
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}
+\DeclarePairedDelimiter\mket{\lvert}{\rangle}
+\DeclarePairedDelimiter\mbra{\langle}{\rvert}
+\DeclareUnicodeCharacter{03C0}{$\pi$}
+
+\newcommand*{\ket}[1]{\ensuremath{\mket{\mkern1mu#1}}}
+\newcommand*{\bra}[1]{\ensuremath{\mbra{\mkern1mu#1}}}
 \newtheorem{example}{Example}
 \def\subparagraph{} % because IEEE classes don't define this, but titlesec assumes it's present
     """,
@@ -152,9 +173,9 @@ html_theme = "furo"
 html_title = "The Munich Quantum Toolkit (MQT)"
 html_static_path = ["_static"]
 html_theme_options = {
-    "light_logo": "mqt_dark.png",
-    "dark_logo": "mqt_light.png",
-    "source_repository": "https://github.com/cda-tum/mqt/",
+    "light_logo": "logo-mqt-light.svg",
+    "dark_logo": "logo-mqt-dark.svg",
+    "source_repository": "https://github.com/munich-quantum-toolkit/.github",
     "source_branch": "main",
     "source_directory": "docs/",
     "navigation_with_keys": True,

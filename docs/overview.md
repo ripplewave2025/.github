@@ -51,6 +51,18 @@ A framework for the automatic generation of QUBO formulations for optimization p
 [{fab}`github` GitHub](https://github.com/cda-tum/mqt-qubomaker) | [{fab}`python` PyPI](https://pypi.org/project/mqt.qubomaker/) | {fa}`fa-thin fa-book` {doc}` Documentation <qubomaker:index>` | [{fa}`fa-thin fa-desktop` Application](https://cda-tum.github.io/mqt-qubomaker/)
 :::
 
+:::{grid-item-card} MQT QAO
+:text-align: center
+A Tool for Solving Optimization Problems with Quantum Computers
+
+```bash
+(venv) $ pip install mqt.qao
+```
+
++++
+[{fab}`github` GitHub](https://github.com/cda-tum/mqt-qao) | [{fab}`python` PyPI](https://pypi.org/project/mqt.qao/) | {fa}`fa-thin fa-book` {doc}` Documentation <qao:index>`
+:::
+
 ::::
 
 ## Simulation
@@ -66,6 +78,18 @@ A Tool for Classical Quantum Circuit Simulation based on Decision Diagrams
 
 +++
 [{fab}`github` GitHub](https://github.com/cda-tum/mqt-ddsim) | [{fab}`python` PyPI](https://pypi.org/project/mqt.ddsim/) | {fa}`fa-thin fa-book` {doc}` Documentation <ddsim:index>` | [More ...](https://www.cda.cit.tum.de/research/quantum_simulation/)
+:::
+
+:::{grid-item-card} MQT YAQS
+:text-align: center
+A Tool for Simulating Open Quantum Systems, Noisy Quantum Circuits, and Realistic Quantum Hardware
+
+```bash
+(venv) $ pip install mqt.yaqs
+```
+
++++
+[{fab}`github` GitHub](https://github.com/cda-tum/mqt-yaqs) | [{fab}`python` PyPI](https://pypi.org/project/mqt.yaqs/) | {fa}`fa-thin fa-book` {doc}` Documentation <yaqs:index>`
 :::
 ::::
 
@@ -133,6 +157,17 @@ A Tool for Quantum Circuit Equivalence Checking
 +++
 [{fab}`github` GitHub](https://github.com/cda-tum/mqt-qcec) | [{fab}`python` PyPI](https://pypi.org/project/mqt.qcec/) | {fa}`fa-thin fa-book` {doc}` Documentation <qcec:index>` | [More ...](https://www.cda.cit.tum.de/research/quantum_verification/)
 :::
+
+:::{grid-item-card} MQT Debugger
+:text-align: center
+A Quantum Circuit Debugging Tool
+
+```bash
+(venv) $ pip install mqt.debugger
+```
+
++++
+[{fab}`github` GitHub](https://github.com/cda-tum/mqt-debugger) | [{fab}`python` PyPI](https://pypi.org/project/mqt.debugger/) | {fa}`fa-thin fa-book` {doc}` Documentation <debugger:index>`
 ::::
 
 ## Quantum Error Correction

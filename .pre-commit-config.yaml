@@ -45,11 +45,16 @@ repos:
       - id: rst-inline-touching-normal
 
   # Check for spelling
-  - repo: https://github.com/codespell-project/codespell
-    rev: "v2.4.1"
+  - repo: https://github.com/crate-ci/typos
+    rev: v1.31.0
     hooks:
-      - id: codespell
-        args: ["-L", "wille,linz", "--skip", "*.ipynb,*.bib"]
+      - id: typos
+
+  # Check for license headers
+  - repo: https://github.com/emzeat/mz-lictools
+    rev: v2.7.0
+    hooks:
+      - id: license-tools
 
   # Format configuration files with prettier
   - repo: https://github.com/rbubley/mirrors-prettier
@@ -57,3 +62,21 @@ repos:
     hooks:
       - id: prettier
         types_or: [yaml, markdown, html, css, scss, javascript, json]
+
+  # Tidy up BibTeX files
+  - repo: https://github.com/FlamingTempura/bibtex-tidy
+    rev: v1.14.0
+    hooks:
+      - id: bibtex-tidy
+        args:
+          [
+            "--align=20",
+            "--curly",
+            "--months",
+            "--blank-lines",
+            "--sort",
+            "--strip-enclosing-braces",
+            "--sort-fields",
+            "--trailing-commas",
+            "--remove-empty-fields",
+          ]

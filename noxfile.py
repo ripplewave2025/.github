@@ -1,8 +1,17 @@
+# Copyright (c) 2023 - 2025 Chair for Design Automation, TUM
+# Copyright (c) 2025 Munich Quantum Software Company GmbH
+# All rights reserved.
+#
+# SPDX-License-Identifier: MIT
+#
+# Licensed under the MIT License
+
 """Nox sessions."""
 
 from __future__ import annotations
 
 import argparse
+import shutil
 
 import nox
 
@@ -13,8 +22,10 @@ nox.options.default_venv_backend = "uv|virtualenv"
 @nox.session(reuse_venv=True)
 def lint(session: nox.Session) -> None:
     """Run the linter."""
-    session.install("pre-commit")
-    session.run("pre-commit", "run", "--all-files", *session.posargs)
+    if shutil.which("pre-commit") is None:
+        session.install("pre-commit")
+
+    session.run("pre-commit", "run", "--all-files", *session.posargs, external=True)
 
 
 @nox.session(reuse_venv=True)
