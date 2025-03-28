@@ -51,6 +51,12 @@ repos:
       - id: codespell
         args: ["-L", "wille,linz", "--skip", "*.ipynb,*.bib"]
 
+  # Check for license headers
+  - repo: https://github.com/emzeat/mz-lictools
+    rev: v2.7.0
+    hooks:
+      - id: license-tools
+
   # Format configuration files with prettier
   - repo: https://github.com/rbubley/mirrors-prettier
     rev: v3.5.3
