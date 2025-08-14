@@ -37,6 +37,25 @@ Among others, it is part of the [Munich Quantum Software Stack (MQSS)](https://w
   </picture>
 </p>
 
+Thank you to all the contributors who have helped make the MQT a reality!
+
+The MQT will remain free, open-source, and permissively licensed—now and in the future.
+We are firmly committed to keeping it open and actively maintained for the quantum computing community.
+
+To support this endeavor, please consider:
+
+- Sponsoring us on GitHub: https://github.com/sponsors/munich-quantum-toolkit
+- Starring and sharing our repositories: https://github.com/munich-quantum-toolkit
+- Contributing code, documentation, tests, or examples via issues and pull requests
+- Citing the MQT in your publications (see [Cite This](#cite-this))
+- Using the MQT in research and teaching, and sharing feedback and use cases
+
+<p align="center">
+  <a href="https://github.com/sponsors/munich-quantum-toolkit">
+  <img width=20% src="https://img.shields.io/badge/Sponsor-white?style=for-the-badge&logo=githubsponsors&labelColor=black&color=blue" alt="Sponsor the MQT" />
+  </a>
+</p>
+
 ## Cite This
 
 If you want to cite the Munich Quantum Toolkit, please use the following BibTeX entry:

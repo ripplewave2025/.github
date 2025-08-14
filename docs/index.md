@@ -80,6 +80,23 @@ which is being developed as part of the [Munich Quantum Valley (MQV)](https://ww
 </div>
 </div>
 
+Thank you to all the contributors who have helped make the MQT a reality!
+
+The MQT will remain free, open-source, and permissively licensed—now and in the future.
+We are firmly committed to keeping it open and actively maintained for the quantum computing community.
+
+To support this endeavor, please consider:
+
+- [Sponsoring us on GitHub](https://github.com/sponsors/munich-quantum-toolkit)
+- [Starring and sharing our repositories](https://github.com/munich-quantum-toolkit)
+- Contributing code, documentation, tests, or examples via issues and pull requests
+- Citing the MQT in your publications (see [Cite This](#cite-this))
+- Using the MQT in research and teaching, and sharing feedback and use cases
+
+<p align="center">
+<iframe src="https://github.com/sponsors/munich-quantum-toolkit/button" title="Sponsor munich-quantum-toolkit" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
+</p>
+
 ## Cite This
 
 If you want to cite the Munich Quantum Toolkit, please use the following BibTeX entry:
