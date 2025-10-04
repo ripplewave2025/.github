@@ -1,292 +1,116 @@
-<p align="center">
-  <a href="https://mqt.readthedocs.io">
-   <picture>
-     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/munich-quantum-toolkit/.github/refs/heads/main/docs/_static/logo-mqt-dark.svg" width="60%">
-     <img src="https://raw.githubusercontent.com/munich-quantum-toolkit/.github/refs/heads/main/docs/_static/logo-mqt-light.svg" width="60%" alt="MQT Logo">
-   </picture>
-  </a>
-</p>
+<!-- README for GitHub profile repo: github.com/ripplewave2025/ripplewave2025
+Theme: Synth Architect • Darjeeling → World | AI × Community × Hustle
+Note: Replace handles below only if they change. All image links are public badge/SVG providers that work inside GitHub READMEs. -->
 
-# The Munich Quantum Toolkit (MQT)
+<div align="center">
+<!-- HERO -->
+<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:111827,100:16a34a&text=Upesh%20%7C%20Upesh%20in%20Mars&fontColor=ffffff&fontAlign=50&fontAlignY=40&desc=Synth%20Architect%20%F0%9F%8C%8C%20%E2%80%A2%20AI%20for%20Himalayan%20Communities&descAlign=50&descAlignY=65" alt="header"/>
 
-Quantum computers are becoming a reality and numerous quantum computing applications with a near-term perspective (e.g., for finance, chemistry, machine learning, and optimization) and with a long-term perspective (e.g., for cryptography or unstructured search) are currently being investigated.
-However, designing and realizing potential applications for these devices in a scalable fashion requires automated, efficient, and user-friendly software tools that cater to the needs of end users, engineers, and physicists at every level of the entire quantum software stack.
-Many of the problems to be tackled in that regard are similar to design problems from the classical realm for which sophisticated design automation tools have been developed in the previous decades.
-
-The _[Munich Quantum Toolkit (MQT)](https://mqt.readthedocs.io)_ is a collection of software tools for quantum computing that explicitly utilizes this design automation expertise.
-Our overarching objective is to provide solutions for design tasks across the entire quantum software stack.
-This entails high-level support for end users in realizing their _applications_, efficient methods for the _classical simulation_, _compilation_, and _verification_ of quantum circuits, tools for _quantum error correction_, support for _physical design_, and more.
-These methods are supported by corresponding _data structures_ (such as decision diagrams or the ZX-calculus) and _core methods_ (such as SAT encodings/solvers).
-All of the developed tools are available as open-source implementations and are hosted on [github.com/munich-quantum-toolkit](https://github.com/munich-quantum-toolkit).
-
-<p align="center">
-  <a href="https://mqt.readthedocs.io">
-  <img width=50% src="https://img.shields.io/badge/%20the%20MQT%20Handbook%20@%20RtD-blue?style=for-the-badge&logo=read%20the%20docs" alt="Documentation" />
-  </a>
-</p>
-
-## Contributors and Supporters
-
-The _[Munich Quantum Toolkit (MQT)](https://mqt.readthedocs.io)_ is developed by the [Chair for Design Automation](https://www.cda.cit.tum.de/) at the [Technical University of Munich](https://www.tum.de/) and supported by the [Munich Quantum Software Company (MQSC)](https://munichquantum.software).
-Among others, it is part of the [Munich Quantum Software Stack (MQSS)](https://www.munich-quantum-valley.de/research/research-areas/mqss) ecosystem, which is being developed as part of the [Munich Quantum Valley (MQV)](https://www.munich-quantum-valley.de) initiative.
-
-<p align="center">
-  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/munich-quantum-toolkit/.github/refs/heads/main/docs/_static/mqt-logo-banner-dark.svg" width="90%">
-   <img src="https://raw.githubusercontent.com/munich-quantum-toolkit/.github/refs/heads/main/docs/_static/mqt-logo-banner-light.svg" width="90%" alt="MQT Partner Logos">
-  </picture>
-</p>
-
-Thank you to all the contributors who have helped make the MQT a reality!
-
-The MQT will remain free, open-source, and permissively licensed—now and in the future.
-We are firmly committed to keeping it open and actively maintained for the quantum computing community.
-
-To support this endeavor, please consider:
-
-- Sponsoring us on GitHub: https://github.com/sponsors/munich-quantum-toolkit
-- Starring and sharing our repositories: https://github.com/munich-quantum-toolkit
-- Contributing code, documentation, tests, or examples via issues and pull requests
-- Citing the MQT in your publications (see [Cite This](#cite-this))
-- Using the MQT in research and teaching, and sharing feedback and use cases
-
-<p align="center">
-  <a href="https://github.com/sponsors/munich-quantum-toolkit">
-  <img width=20% src="https://img.shields.io/badge/Sponsor-white?style=for-the-badge&logo=githubsponsors&labelColor=black&color=blue" alt="Sponsor the MQT" />
-  </a>
-</p>
-
-## Cite This
-
-If you want to cite the Munich Quantum Toolkit, please use the following BibTeX entry:
-
-```bibtex
-@inproceedings{mqt,
-    title = {The {{MQT}} Handbook: {{A}} Summary of Design Automation Tools and Software for Quantum Computing},
-    shorttitle = {{The MQT Handbook}},
-    booktitle = {IEEE International Conference on Quantum Software (QSW)},
-    author = {Wille, Robert and Berent, Lucas and Forster, Tobias and Kunasaikaran, Jagatheesan and Mato, Kevin and Peham, Tom and Quetschlich, Nils and Rovara, Damian and Sander, Aaron and Schmid, Ludwig and Schoenberger, Daniel and Stade, Yannick and Burgholzer, Lukas},
-    date = {2024},
-    doi = {10.1109/QSW62656.2024.00013},
-    eprint  = {2405.17543},
-    eprinttype = {arxiv},
-    addendum = {A live version of this document is available at \url{https://mqt.readthedocs.io}},
-}
-```
-
-<!-- SPHINX-START -->
-
-## GitHub Information
-
-| GitHub Project        |                    latest version |                           forks |                           stars |
-| --------------------- | --------------------------------: | ------------------------------: | ------------------------------: |
-| [`mqt-ddsim`]         |         ![gh.mqt.ddsim.release][] |         ![gh.mqt.ddsim.forks][] |         ![gh.mqt.ddsim.stars][] |
-| [`mqt-qecc`]          |          ![gh.mqt.qecc.release][] |          ![gh.mqt.qecc.forks][] |          ![gh.mqt.qecc.stars][] |
-| [`mqt-qmap`]          |          ![gh.mqt.qmap.release][] |          ![gh.mqt.qmap.forks][] |          ![gh.mqt.qmap.stars][] |
-| [`mqt-qcec`]          |          ![gh.mqt.qcec.release][] |          ![gh.mqt.qcec.forks][] |          ![gh.mqt.qcec.stars][] |
-| [`mqt-bench`]         |         ![gh.mqt.bench.release][] |         ![gh.mqt.bench.forks][] |         ![gh.mqt.bench.stars][] |
-| [`mqt-core`]          |          ![gh.mqt.core.release][] |          ![gh.mqt.core.forks][] |          ![gh.mqt.core.stars][] |
-| [`mqt-predictor`]     |     ![gh.mqt.predictor.release][] |     ![gh.mqt.predictor.forks][] |     ![gh.mqt.predictor.stars][] |
-| [`mqt-problemsolver`] | ![gh.mqt.problemsolver.release][] | ![gh.mqt.problemsolver.forks][] | ![gh.mqt.problemsolver.stars][] |
-| [`mqt-syrec`]         |         ![gh.mqt.syrec.release][] |         ![gh.mqt.syrec.forks][] |         ![gh.mqt.syrec.stars][] |
-| [`mqt-ddvis`]         |         ![gh.mqt.ddvis.release][] |         ![gh.mqt.ddvis.forks][] |         ![gh.mqt.ddvis.stars][] |
-| [`mqt-qao`]           |           ![gh.mqt.qao.release][] |           ![gh.mqt.qao.forks][] |           ![gh.mqt.qao.stars][] |
-| [`mqt-qudits`]        |        ![gh.mqt.qudits.release][] |        ![gh.mqt.qudits.forks][] |        ![gh.mqt.qudits.stars][] |
-| [`mqt-qubomaker`]     |     ![gh.mqt.qubomaker.release][] |     ![gh.mqt.qubomaker.forks][] |     ![gh.mqt.qubomaker.stars][] |
-| [`mqt-qusat`]         |         ![gh.mqt.qusat.release][] |         ![gh.mqt.qusat.forks][] |         ![gh.mqt.qusat.stars][] |
-| [`mqt-debugger`]      |      ![gh.mqt.debugger.release][] |      ![gh.mqt.debugger.forks][] |      ![gh.mqt.debugger.stars][] |
-| [`mqt-yaqs`]          |          ![gh.mqt.yaqs.release][] |          ![gh.mqt.yaqs.forks][] |          ![gh.mqt.yaqs.stars][] |
-| [`mqt-workflows`]     |     ![gh.mqt.workflows.release][] |     ![gh.mqt.workflows.forks][] |     ![gh.mqt.workflows.stars][] |
-| [`mqt-ionshuttler`]   |                                   |   ![gh.mqt.ionshuttler.forks][] |   ![gh.mqt.ionshuttler.stars][] |
-| [`mqt-dasqa`]         |                                   |         ![gh.mqt.dasqa.forks][] |         ![gh.mqt.dasqa.stars][] |
-
-[`mqt-ddsim`]: https://github.com/cda-tum/mqt-ddsim
-[`mqt-qcec`]: https://github.com/cda-tum/mqt-qcec
-[`mqt-qmap`]: https://github.com/cda-tum/mqt-qmap
-[`mqt-qecc`]: https://github.com/cda-tum/mqt-qecc
-[`mqt-bench`]: https://github.com/cda-tum/mqt-bench
-[`mqt-predictor`]: https://github.com/cda-tum/mqt-predictor
-[`mqt-core`]: https://github.com/cda-tum/mqt-core
-[`mqt-problemsolver`]: https://github.com/cda-tum/mqt-problemsolver
-[`mqt-syrec`]: https://github.com/cda-tum/mqt-syrec
-[`mqt-ddvis`]: https://github.com/cda-tum/mqt-ddvis
-[`mqt-qusat`]: https://github.com/cda-tum/mqt-qusat
-[`mqt-dasqa`]: https://github.com/cda-tum/mqt-dasqa
-[`mqt-ionshuttler`]: https://github.com/cda-tum/mqt-ionshuttler
-[`mqt-qubomaker`]: https://github.com/cda-tum/mqt-qubomaker
-[`mqt-qudits`]: https://github.com/cda-tum/mqt-qudits
-[`mqt-yaqs`]: https://github.com/cda-tum/mqt-yaqs
-[`mqt-debugger`]: https://github.com/cda-tum/mqt-debugger
-[`mqt-workflows`]: https://github.com/cda-tum/mqt-workflows
-[`mqt-qao`]: https://github.com/cda-tum/mqt-qao
-[gh.mqt.ddsim.release]: https://img.shields.io/github/v/release/cda-tum/mqt-ddsim?label=%20&style=flat-square
-[gh.mqt.ddsim.forks]: https://img.shields.io/github/forks/cda-tum/mqt-ddsim?label=%20&style=flat-square
-[gh.mqt.ddsim.stars]: https://img.shields.io/github/stars/cda-tum/mqt-ddsim?label=%20&style=flat-square
-[gh.mqt.qmap.release]: https://img.shields.io/github/v/release/cda-tum/mqt-qmap?label=%20&style=flat-square
-[gh.mqt.qmap.forks]: https://img.shields.io/github/forks/cda-tum/mqt-qmap?label=%20&style=flat-square
-[gh.mqt.qmap.stars]: https://img.shields.io/github/stars/cda-tum/mqt-qmap?label=%20&style=flat-square
-[gh.mqt.qcec.release]: https://img.shields.io/github/v/release/cda-tum/mqt-qcec?label=%20&style=flat-square
-[gh.mqt.qcec.forks]: https://img.shields.io/github/forks/cda-tum/mqt-qcec?label=%20&style=flat-square
-[gh.mqt.qcec.stars]: https://img.shields.io/github/stars/cda-tum/mqt-qcec?label=%20&style=flat-square
-[gh.mqt.core.release]: https://img.shields.io/github/v/release/cda-tum/mqt-core?label=%20&style=flat-square
-[gh.mqt.core.forks]: https://img.shields.io/github/forks/cda-tum/mqt-core?label=%20&style=flat-square
-[gh.mqt.core.stars]: https://img.shields.io/github/stars/cda-tum/mqt-core?label=%20&style=flat-square
-[gh.mqt.bench.release]: https://img.shields.io/github/v/release/cda-tum/mqt-bench?label=%20&style=flat-square
-[gh.mqt.bench.forks]: https://img.shields.io/github/forks/cda-tum/mqt-bench?label=%20&style=flat-square
-[gh.mqt.bench.stars]: https://img.shields.io/github/stars/cda-tum/mqt-bench?label=%20&style=flat-square
-[gh.mqt.predictor.release]: https://img.shields.io/github/v/release/cda-tum/mqt-predictor?label=%20&style=flat-square
-[gh.mqt.predictor.forks]: https://img.shields.io/github/forks/cda-tum/mqt-predictor?label=%20&style=flat-square
-[gh.mqt.predictor.stars]: https://img.shields.io/github/stars/cda-tum/mqt-predictor?label=%20&style=flat-square
-[gh.mqt.qecc.release]: https://img.shields.io/github/v/release/cda-tum/mqt-qecc?label=%20&style=flat-square
-[gh.mqt.qecc.forks]: https://img.shields.io/github/forks/cda-tum/mqt-qecc?label=%20&style=flat-square
-[gh.mqt.qecc.stars]: https://img.shields.io/github/stars/cda-tum/mqt-qecc?label=%20&style=flat-square
-[gh.mqt.syrec.release]: https://img.shields.io/github/v/release/cda-tum/mqt-syrec?label=%20&style=flat-square
-[gh.mqt.syrec.forks]: https://img.shields.io/github/forks/cda-tum/mqt-syrec?label=%20&style=flat-square
-[gh.mqt.syrec.stars]: https://img.shields.io/github/stars/cda-tum/mqt-syrec?label=%20&style=flat-square
-[gh.mqt.ddvis.release]: https://img.shields.io/github/v/release/cda-tum/mqt-ddvis?label=%20&style=flat-square
-[gh.mqt.ddvis.forks]: https://img.shields.io/github/forks/cda-tum/mqt-ddvis?label=%20&style=flat-square
-[gh.mqt.ddvis.stars]: https://img.shields.io/github/stars/cda-tum/mqt-ddvis?label=%20&style=flat-square
-[gh.mqt.problemsolver.release]: https://img.shields.io/github/v/release/cda-tum/mqt-problemsolver?label=%20&style=flat-square
-[gh.mqt.problemsolver.forks]: https://img.shields.io/github/forks/cda-tum/mqt-problemsolver?label=%20&style=flat-square
-[gh.mqt.problemsolver.stars]: https://img.shields.io/github/stars/cda-tum/mqt-problemsolver?label=%20&style=flat-square
-[gh.mqt.qusat.release]: https://img.shields.io/github/v/release/cda-tum/mqt-qusat?label=%20&style=flat-square
-[gh.mqt.qusat.forks]: https://img.shields.io/github/forks/cda-tum/mqt-qusat?label=%20&style=flat-square
-[gh.mqt.qusat.stars]: https://img.shields.io/github/stars/cda-tum/mqt-qusat?label=%20&style=flat-square
-[gh.mqt.ionshuttler.release]: https://img.shields.io/github/v/release/cda-tum/ion-shuttler?label=%20&style=flat-square
-[gh.mqt.ionshuttler.forks]: https://img.shields.io/github/forks/cda-tum/ion-shuttler?label=%20&style=flat-square
-[gh.mqt.ionshuttler.stars]: https://img.shields.io/github/stars/cda-tum/ion-shuttler?label=%20&style=flat-square
-[gh.mqt.qudits.release]: https://img.shields.io/github/v/release/cda-tum/mqt-qudits?label=%20&style=flat-square
-[gh.mqt.qudits.forks]: https://img.shields.io/github/forks/cda-tum/mqt-qudits?label=%20&style=flat-square
-[gh.mqt.qudits.stars]: https://img.shields.io/github/stars/cda-tum/mqt-qudits?label=%20&style=flat-square
-[gh.mqt.dasqa.release]: https://img.shields.io/github/v/release/cda-tum/mqt-dasqa?label=%20&style=flat-square
-[gh.mqt.dasqa.forks]: https://img.shields.io/github/forks/cda-tum/mqt-dasqa?label=%20&style=flat-square
-[gh.mqt.dasqa.stars]: https://img.shields.io/github/stars/cda-tum/mqt-dasqa?label=%20&style=flat-square
-[gh.mqt.qubomaker.release]: https://img.shields.io/github/v/release/cda-tum/mqt-qubomaker?label=%20&style=flat-square
-[gh.mqt.qubomaker.forks]: https://img.shields.io/github/forks/cda-tum/mqt-qubomaker?label=%20&style=flat-square
-[gh.mqt.qubomaker.stars]: https://img.shields.io/github/stars/cda-tum/mqt-qubomaker?label=%20&style=flat-square
-[gh.mqt.yaqs.release]: https://img.shields.io/github/v/release/cda-tum/mqt-yaqs?label=%20&style=flat-square
-[gh.mqt.yaqs.forks]: https://img.shields.io/github/forks/cda-tum/mqt-yaqs?label=%20&style=flat-square
-[gh.mqt.yaqs.stars]: https://img.shields.io/github/stars/cda-tum/mqt-yaqs?label=%20&style=flat-square
-[gh.mqt.debugger.release]: https://img.shields.io/github/v/release/cda-tum/mqt-debugger?label=%20&style=flat-square
-[gh.mqt.debugger.forks]: https://img.shields.io/github/forks/cda-tum/mqt-debugger?label=%20&style=flat-square
-[gh.mqt.debugger.stars]: https://img.shields.io/github/stars/cda-tum/mqt-debugger?label=%20&style=flat-square
-[gh.mqt.workflows.release]: https://img.shields.io/github/v/release/cda-tum/mqt-workflows?label=%20&style=flat-square
-[gh.mqt.workflows.forks]: https://img.shields.io/github/forks/cda-tum/mqt-workflows?label=%20&style=flat-square
-[gh.mqt.workflows.stars]: https://img.shields.io/github/stars/cda-tum/mqt-workflows?label=%20&style=flat-square
-[gh.mqt.qao.release]: https://img.shields.io/github/v/release/cda-tum/mqt-qao?label=%20&style=flat-square
-[gh.mqt.qao.forks]: https://img.shields.io/github/forks/cda-tum/mqt-qao?label=%20&style=flat-square
-[gh.mqt.qao.stars]: https://img.shields.io/github/stars/cda-tum/mqt-qao?label=%20&style=flat-square
-
-## PyPI Downloads
-
-| Projekt                                             |                      latest version |                             weekly |                             monthly |                                                                          total |
-| --------------------------------------------------- | ----------------------------------: | ---------------------------------: | ----------------------------------: | -----------------------------------------------------------------------------: |
-| [`mqt.qcec`][pypi.mqt.qcec.stats]                   |          ![pypi.mqt.qcec.version][] |          ![pypi.mqt.qcec.weekly][] |          ![pypi.mqt.qcec.monthly][] |                   [![pypi.mqt.qcec.total]](https://pepy.tech/project/mqt.qcec) |
-| [`mqt.qmap`][pypi.mqt.qmap.stats]                   |          ![pypi.mqt.qmap.version][] |          ![pypi.mqt.qmap.weekly][] |          ![pypi.mqt.qmap.monthly][] |                   [![pypi.mqt.qmap.total]](https://pepy.tech/project/mqt.qmap) |
-| [`mqt.ddsim`][pypi.mqt.ddsim.stats]                 |         ![pypi.mqt.ddsim.version][] |         ![pypi.mqt.ddsim.weekly][] |         ![pypi.mqt.ddsim.monthly][] |                 [![pypi.mqt.ddsim.total]](https://pepy.tech/project/mqt.ddsim) |
-| [`mqt.core`][pypi.mqt.core.stats]                   |          ![pypi.mqt.core.version][] |          ![pypi.mqt.core.weekly][] |          ![pypi.mqt.core.monthly][] |                   [![pypi.mqt.core.total]](https://pepy.tech/project/mqt.core) |
-| [`mqt.qecc`][pypi.mqt.qecc.stats]                   |          ![pypi.mqt.qecc.version][] |          ![pypi.mqt.qecc.weekly][] |          ![pypi.mqt.qecc.monthly][] |                   [![pypi.mqt.qecc.total]](https://pepy.tech/project/mqt.qecc) |
-| [`mqt.syrec`][pypi.mqt.syrec.stats]                 |         ![pypi.mqt.syrec.version][] |         ![pypi.mqt.syrec.weekly][] |         ![pypi.mqt.syrec.monthly][] |                 [![pypi.mqt.syrec.total]](https://pepy.tech/project/mqt.syrec) |
-| [`mqt.qusat`][pypi.mqt.qusat.stats]                 |         ![pypi.mqt.qusat.version][] |         ![pypi.mqt.qusat.weekly][] |         ![pypi.mqt.qusat.monthly][] |                 [![pypi.mqt.qusat.total]](https://pepy.tech/project/mqt.qusat) |
-| [`mqt.bench`][pypi.mqt.bench.stats]                 |         ![pypi.mqt.bench.version][] |         ![pypi.mqt.bench.weekly][] |         ![pypi.mqt.bench.monthly][] |                 [![pypi.mqt.bench.total]](https://pepy.tech/project/mqt.bench) |
-| [`mqt.qudits`][pypi.mqt.qudits.stats]               |        ![pypi.mqt.qudits.version][] |        ![pypi.mqt.qudits.weekly][] |        ![pypi.mqt.qudits.monthly][] |               [![pypi.mqt.qudits.total]](https://pepy.tech/project/mqt.qudits) |
-| [`mqt.debugger`][pypi.mqt.debugger.stats]           |      ![pypi.mqt.debugger.version][] |      ![pypi.mqt.debugger.weekly][] |      ![pypi.mqt.debugger.monthly][] |           [![pypi.mqt.debugger.total]](https://pepy.tech/project/mqt.debugger) |
-| [`mqt.predictor`][pypi.mqt.predictor.stats]         |     ![pypi.mqt.predictor.version][] |     ![pypi.mqt.predictor.weekly][] |     ![pypi.mqt.predictor.monthly][] |         [![pypi.mqt.predictor.total]](https://pepy.tech/project/mqt.predictor) |
-| [`mqt.problemsolver`][pypi.mqt.problemsolver.stats] | ![pypi.mqt.problemsolver.version][] | ![pypi.mqt.problemsolver.weekly][] | ![pypi.mqt.problemsolver.monthly][] | [![pypi.mqt.problemsolver.total]](https://pepy.tech/project/mqt.problemsolver) |
-| [`mqt.qubomaker`][pypi.mqt.qubomaker.stats]         |     ![pypi.mqt.qubomaker.version][] |     ![pypi.mqt.qubomaker.weekly][] |     ![pypi.mqt.qubomaker.monthly][] |         [![pypi.mqt.qubomaker.total]](https://pepy.tech/project/mqt.qubomaker) |
-| [`mqt.qao`][pypi.mqt.qao.stats]                     |           ![pypi.mqt.qao.version][] |           ![pypi.mqt.qao.weekly][] |           ![pypi.mqt.qao.monthly][] |                     [![pypi.mqt.qao.total]](https://pepy.tech/project/mqt.qao) |
-| [`mqt.yaqs`][pypi.mqt.yaqs.stats]                   |          ![pypi.mqt.yaqs.version][] |          ![pypi.mqt.yaqs.weekly][] |          ![pypi.mqt.yaqs.monthly][] |                   [![pypi.mqt.yaqs.total]](https://pepy.tech/project/mqt.yaqs) |
-
-[pypi.mqt.ddsim.stats]: https://pypistats.org/packages/mqt-ddsim
-[pypi.mqt.ddsim.version]: https://img.shields.io/pypi/v/mqt.ddsim?label=%20&style=flat-square
-[pypi.mqt.ddsim.weekly]: https://img.shields.io/pypi/dw/mqt.ddsim?label=%20&style=flat-square
-[pypi.mqt.ddsim.monthly]: https://img.shields.io/pypi/dm/mqt.ddsim?label=%20&style=flat-square
-[pypi.mqt.ddsim.total]: https://static.pepy.tech/personalized-badge/mqt-ddsim?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
-[pypi.mqt.qmap.stats]: https://pypistats.org/packages/mqt-qmap
-[pypi.mqt.qmap.version]: https://img.shields.io/pypi/v/mqt.qmap?label=%20&style=flat-square
-[pypi.mqt.qmap.weekly]: https://img.shields.io/pypi/dw/mqt.qmap?label=%20&style=flat-square
-[pypi.mqt.qmap.monthly]: https://img.shields.io/pypi/dm/mqt.qmap?label=%20&style=flat-square
-[pypi.mqt.qmap.total]: https://static.pepy.tech/personalized-badge/mqt-qmap?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
-[pypi.mqt.qcec.stats]: https://pypistats.org/packages/mqt-qcec
-[pypi.mqt.qcec.version]: https://img.shields.io/pypi/v/mqt.qcec?label=%20&style=flat-square
-[pypi.mqt.qcec.weekly]: https://img.shields.io/pypi/dw/mqt.qcec?label=%20&style=flat-square
-[pypi.mqt.qcec.monthly]: https://img.shields.io/pypi/dm/mqt.qcec?label=%20&style=flat-square
-[pypi.mqt.qcec.total]: https://static.pepy.tech/personalized-badge/mqt-qcec?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
-[pypi.mqt.core.stats]: https://pypistats.org/packages/mqt-core
-[pypi.mqt.core.version]: https://img.shields.io/pypi/v/mqt.core?label=%20&style=flat-square
-[pypi.mqt.core.weekly]: https://img.shields.io/pypi/dw/mqt.core?label=%20&style=flat-square
-[pypi.mqt.core.monthly]: https://img.shields.io/pypi/dm/mqt.core?label=%20&style=flat-square
-[pypi.mqt.core.total]: https://static.pepy.tech/personalized-badge/mqt-core?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
-[pypi.mqt.qecc.stats]: https://pypistats.org/packages/mqt-qecc
-[pypi.mqt.qecc.version]: https://img.shields.io/pypi/v/mqt.qecc?label=%20&style=flat-square
-[pypi.mqt.qecc.weekly]: https://img.shields.io/pypi/dw/mqt.qecc?label=%20&style=flat-square
-[pypi.mqt.qecc.monthly]: https://img.shields.io/pypi/dm/mqt.qecc?label=%20&style=flat-square
-[pypi.mqt.qecc.total]: https://static.pepy.tech/personalized-badge/mqt-qecc?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
-[pypi.mqt.bench.stats]: https://pypistats.org/packages/mqt-bench
-[pypi.mqt.bench.version]: https://img.shields.io/pypi/v/mqt.bench?label=%20&style=flat-square
-[pypi.mqt.bench.weekly]: https://img.shields.io/pypi/dw/mqt.bench?label=%20&style=flat-square
-[pypi.mqt.bench.monthly]: https://img.shields.io/pypi/dm/mqt.bench?label=%20&style=flat-square
-[pypi.mqt.bench.total]: https://static.pepy.tech/personalized-badge/mqt-bench?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
-[pypi.mqt.predictor.stats]: https://pypistats.org/packages/mqt-predictor
-[pypi.mqt.predictor.version]: https://img.shields.io/pypi/v/mqt.predictor?label=%20&style=flat-square
-[pypi.mqt.predictor.weekly]: https://img.shields.io/pypi/dw/mqt.predictor?label=%20&style=flat-square
-[pypi.mqt.predictor.monthly]: https://img.shields.io/pypi/dm/mqt.predictor?label=%20&style=flat-square
-[pypi.mqt.predictor.total]: https://static.pepy.tech/personalized-badge/mqt-predictor?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
-[pypi.mqt.problemsolver.stats]: https://pypistats.org/packages/mqt-problemsolver
-[pypi.mqt.problemsolver.version]: https://img.shields.io/pypi/v/mqt.problemsolver?label=%20&style=flat-square
-[pypi.mqt.problemsolver.weekly]: https://img.shields.io/pypi/dw/mqt.problemsolver?label=%20&style=flat-square
-[pypi.mqt.problemsolver.monthly]: https://img.shields.io/pypi/dm/mqt.problemsolver?label=%20&style=flat-square
-[pypi.mqt.problemsolver.total]: https://static.pepy.tech/personalized-badge/mqt-problemsolver?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
-[pypi.mqt.syrec.stats]: https://pypistats.org/packages/mqt-syrec
-[pypi.mqt.syrec.version]: https://img.shields.io/pypi/v/mqt.syrec?label=%20&style=flat-square
-[pypi.mqt.syrec.weekly]: https://img.shields.io/pypi/dw/mqt.syrec?label=%20&style=flat-square
-[pypi.mqt.syrec.monthly]: https://img.shields.io/pypi/dm/mqt.syrec?label=%20&style=flat-square
-[pypi.mqt.syrec.total]: https://static.pepy.tech/personalized-badge/mqt-syrec?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
-[pypi.mqt.qusat.stats]: https://pypistats.org/packages/mqt-qusat
-[pypi.mqt.qusat.version]: https://img.shields.io/pypi/v/mqt.qusat?label=%20&style=flat-square
-[pypi.mqt.qusat.weekly]: https://img.shields.io/pypi/dw/mqt.qusat?label=%20&style=flat-square
-[pypi.mqt.qusat.monthly]: https://img.shields.io/pypi/dm/mqt.qusat?label=%20&style=flat-square
-[pypi.mqt.qusat.total]: https://static.pepy.tech/personalized-badge/mqt-qusat?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
-[pypi.mqt.qudits.stats]: https://pypistats.org/packages/mqt-qudits
-[pypi.mqt.qudits.version]: https://img.shields.io/pypi/v/mqt.qudits?label=%20&style=flat-square
-[pypi.mqt.qudits.weekly]: https://img.shields.io/pypi/dw/mqt.qudits?label=%20&style=flat-square
-[pypi.mqt.qudits.monthly]: https://img.shields.io/pypi/dm/mqt.qudits?label=%20&style=flat-square
-[pypi.mqt.qudits.total]: https://static.pepy.tech/personalized-badge/mqt-qudits?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
-[pypi.mqt.yaqs.stats]: https://pypistats.org/packages/mqt-yaqs
-[pypi.mqt.yaqs.version]: https://img.shields.io/pypi/v/mqt.yaqs?label=%20&style=flat-square
-[pypi.mqt.yaqs.weekly]: https://img.shields.io/pypi/dw/mqt.yaqs?label=%20&style=flat-square
-[pypi.mqt.yaqs.monthly]: https://img.shields.io/pypi/dm/mqt.yaqs?label=%20&style=flat-square
-[pypi.mqt.yaqs.total]: https://static.pepy.tech/personalized-badge/mqt-yaqs?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
-[pypi.mqt.qubomaker.stats]: https://pypistats.org/packages/mqt-qubomaker
-[pypi.mqt.qubomaker.version]: https://img.shields.io/pypi/v/mqt.qubomaker?label=%20&style=flat-square
-[pypi.mqt.qubomaker.weekly]: https://img.shields.io/pypi/dw/mqt.qubomaker?label=%20&style=flat-square
-[pypi.mqt.qubomaker.monthly]: https://img.shields.io/pypi/dm/mqt.qubomaker?label=%20&style=flat-square
-[pypi.mqt.qubomaker.total]: https://static.pepy.tech/personalized-badge/mqt-qubomaker?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
-[pypi.mqt.debugger.stats]: https://pypistats.org/packages/mqt-debugger
-[pypi.mqt.debugger.version]: https://img.shields.io/pypi/v/mqt-debugger?label=%20&style=flat-square
-[pypi.mqt.debugger.weekly]: https://img.shields.io/pypi/dw/mqt-debugger?label=%20&style=flat-square
-[pypi.mqt.debugger.monthly]: https://img.shields.io/pypi/dm/mqt-debugger?label=%20&style=flat-square
-[pypi.mqt.debugger.total]: https://static.pepy.tech/personalized-badge/mqt-debugger?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
-[pypi.mqt.qao.stats]: https://pypistats.org/packages/mqt-qao
-[pypi.mqt.qao.version]: https://img.shields.io/pypi/v/mqt.qao?label=%20&style=flat-square
-[pypi.mqt.qao.weekly]: https://img.shields.io/pypi/dw/mqt.qao?label=%20&style=flat-square
-[pypi.mqt.qao.monthly]: https://img.shields.io/pypi/dm/mqt.qao?label=%20&style=flat-square
-[pypi.mqt.qao.total]: https://static.pepy.tech/personalized-badge/mqt-qao?period=total&units=international_system&left_color=orange&right_color=orange&left_text=
-
-<!-- SPHINX-END -->
+[![X Follow](https://img.shields.io/twitter/follow/upeshinmars?style=social)](https://x.com/upeshinmars) [![GitHub followers](https://img.shields.io/github/followers/ripplewave2025?style=social)](https://github.com/ripplewave2025) [![Repos](https://img.shields.io/badge/Repos-62-blue)](https://github.com/ripplewave2025?tab=repositories) [![Instagram](https://img.shields.io/badge/Instagram-hotbpoison-E4405F?logo=instagram)](https://www.instagram.com/hotbpoison) [![YouTube](https://img.shields.io/badge/YouTube-techinahurry--A-red?logo=youtube)](https://www.youtube.com/@techinahurry-A) [![Notion](https://img.shields.io/badge/Notion-Hub-black?logo=notion)](https://massive-industry-848.notion.site/Website-Structure-212983e5ce75804688b6e1b68f4d681e?pvs=143)
+<br/>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&pause=1000&center=true&vCenter=true&color=16A34A&width=850&lines=Human-First+AI+%E2%86%92+Darjeeling%2C+then+Everywhere;CareConnect%2C+Human-Only+Rooms%2C+AIforStudents%2C+BhanuGPT;Ship+Daily+%7C+Think+in+First+Principles+%7C+Live+on+42" alt="typing" />
+</div>
 
 ---
 
-## Acknowledgements
+### 👋 Namaste, I'm Upesh — building human‑first AI systems from the Himalayas
 
-The Munich Quantum Toolkit has been supported by the European
-Research Council (ERC) under the European Union's Horizon 2020 research and innovation program (grant agreement
-No. 101001318), the Bavarian State Ministry for Science and Arts through the Distinguished Professorship Program, as well as the
-Munich Quantum Valley, which is supported by the Bavarian state government with funds from the Hightech Agenda Bayern Plus.
+* • **Mission:** Expand human agency from Darjeeling outward by shipping **trust‑layer AI** (Human‑Only Rooms) and **CareConnect** for affordable caregiving.
+* • **12‑month focus:** `5 paying orgs using Human‑Only Rooms` • `1k verified users` • `50 families on CareConnect` • Revenue: `₹40k→₹1L/mo`.
+* • **Principles:** First‑principles, game theory, brutal clarity, minimum viable truth. BIOS resets. Debug humans like systems.
+* • **Build‑in‑public:** Twitter/X [@upeshinmars](https://x.com/upeshinmars), IG [@hotbpoison](https://www.instagram.com/hotbpoison), YouTube [@techinahurry-A](https://www.youtube.com/@techinahurry-A).
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/munich-quantum-toolkit/.github/refs/heads/main/docs/_static/mqt-funding-footer-dark.svg" width="90%">
-    <img src="https://raw.githubusercontent.com/munich-quantum-toolkit/.github/refs/heads/main/docs/_static/mqt-funding-footer-light.svg" width="90%" alt="MQT Funding Footer">
-  </picture>
-</p>
+> "Either you're in, or I'm out." — Operating system for my life.
+
+---
+
+## 🔭 Now Shipping
+
+* • **CareConnect** — AI‑powered caregiving pilot in Siliguri • health logs, caregiver matching, privacy‑first verification.
+* • **Human‑Only Rooms** — Trust‑layer for verified humans (pass/fail), no bots, real intent → action.
+* • **AamaGPT** — Nepali assistant for my mom (default Nepali, Hindi on request).
+* • **BhanuGPT / AadikaviAwakens** — Cultural revival experiments with Bhanubhakta Acharya.
+* • **AIforStudents.online** — Simple, local language AI tools + workshops.
+* • **HomestayInHimalayasOfDarjeeling** — Digital uplift for homestays (audits, free sites, self‑run playbooks).
+
+> Full list & roadmaps → **[Public Notion Hub](https://massive-industry-848.notion.site/Website-Structure-212983e5ce75804688b6e1b68f4d681e?pvs=143)**
+
+---
+
+## 🧠 Stack & Superpowers
+
+**Languages & Tools**
+
+![Python](https://img.shields.io/badge/Python-111827?logo=python&logoColor=16a34a)
+![C](https://img.shields.io/badge/C-111827?logo=c&logoColor=16a34a)
+![C++](https://img.shields.io/badge/C%2B%2B-111827?logo=cplusplus&logoColor=16a34a)
+![Assembly](https://img.shields.io/badge/Assembly-111827?logo=raspberrypi&logoColor=16a34a)
+![Linux](https://img.shields.io/badge/Linux-111827?logo=linux&logoColor=16a34a)
+![Kali](https://img.shields.io/badge/Kali%20Linux-111827?logo=kalilinux&logoColor=16a34a)
+![Node](https://img.shields.io/badge/Node.js-111827?logo=nodedotjs&logoColor=16a34a)
+![React](https://img.shields.io/badge/React-111827?logo=react&logoColor=16a34a)
+![Next.js](https://img.shields.io/badge/Next.js-111827?logo=nextdotjs&logoColor=16a34a)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-111827?logo=tailwindcss&logoColor=16a34a)
+![Notion](https://img.shields.io/badge/Notion-111827?logo=notion&logoColor=16a34a)
+![GitHub](https://img.shields.io/badge/GitHub-111827?logo=github&logoColor=16a34a)
+
+**Focus**: LLMs, prompt engineering, multi‑agent systems, clean web stacks, human verification, privacy.
+
+---
+
+## 📈 GitHub Analytics (auto)
+
+<div align="center">
+<a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api?username=ripplewave2025&show_icons=true&theme=dark&hide_border=true&bg_color=111827&title_color=16a34a&icon_color=16a34a&text_color=ffffff" alt="stats"/></a>
+<a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ripplewave2025&layout=compact&theme=dark&hide_border=true&bg_color=111827&title_color=16a34a&text_color=ffffff" alt="top langs"/></a>
+<a href="https://github.com/denvercoder1/github-readme-streak-stats"><img src="https://streak-stats.demolab.com?user=ripplewave2025&theme=dark&hide_border=true&background=111827&ring=16A34A&fire=16A34A&currStreakLabel=16A34A" alt="streak"/></a>
+<a href="https://github.com/Ashutosh00710/github-readme-activity-graph"><img src="https://github-readme-activity-graph.vercel.app/graph?username=ripplewave2025&theme=react-dark&hide_border=true&bg_color=111827&color=16a34a&line=16a34a&point=ffffff" alt="activity graph"/></a>
+</div>
+
+> Tip: If any card fails to load on first view, refresh; these are public services.
+
+---
+
+## 🚀 Flagship Projects
+
+| Project                             | What it does                                                                 | Links                                                                                                                                        |
+| ----------------------------------- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **CareConnect**                     | AI‑powered caregiver matching + weekly health logs for families in Siliguri. | Repo: *TBA* • Pitch: *TBA*                                                                                                                   |
+| **Human‑Only Rooms**                | Privacy‑first verification → real humans only; trust layer for communities.  | Repo: *TBA*                                                                                                                                  |
+| **AamaGPT**                         | Nepali assistant for my mother; respectful, simple UX.                       | Repo: *TBA*                                                                                                                                  |
+| **AadikaviAwakens**                 | Cultural revival via AI around Bhanubhakta.                                  | Live: [https://ripplewave2025.github.io/AadikaviAwakens](https://ripplewave2025.github.io/AadikaviAwakens)                                   |
+| **HomestayInHimalayasOfDarjeeling** | Digital uplift for homestays; audits + free sites + playbooks.               | Repo: [https://github.com/ripplewave2025/HomestayInHimalayasOfDarjeeling](https://github.com/ripplewave2025/HomestayInHimalayasOfDarjeeling) |
+| **AIforStudents**                   | Public learning tools and workshops for students/teachers.                   | Repo: *TBA*                                                                                                                                  |
+
+> Want a one‑page summary of everything? See the **Public Notion Hub** linked at the top.
+
+---
+
+## 🎙️ Podcast & Content
+
+* • Long‑form: AI, critical thinking, Himalayan future, practical hustle.
+* • Short‑form: Instagram Reels + YouTube Shorts from the build‑in‑public pipeline.
+* • Goal: Ship the next episode and hit `X` listeners. *(Replace `X` with target.)*
+
+**Find me** → X [@upeshinmars](https://x.com/upeshinmars) • IG [@hotbpoison](https://www.instagram.com/hotbpoison) • YouTube [@techinahurry-A](https://www.youtube.com/@techinahurry-A)
+
+---
+
+## 🧩 Operating System
+
+* • **Daily non‑negotiables:** Calisthenics • Ship one artifact • Study microeconomics/game‑theory/physics/AI • Family care logs.
+* • **Mental triggers:** `42` • Schrödinger's cat • Quantum Chaos Bootphrase • "Either you're in, or I'm out."
+* • **Build loops:** Learn → Build → Ship → Distribute → Get signal → Iterate.
+
+---
+
+## 🤝 Let's work
+
+* • DMs open on X. For collaborations, open an issue on any repo or email via GitHub profile.
+* • Interested orgs: pilots for Human‑Only Rooms or CareConnect. Tier‑2 India focus welcomed.
+
+---
+
+<div align="center">
+Made with focus from Darjeeling • Last updated: 2025‑08‑28
+</div>
