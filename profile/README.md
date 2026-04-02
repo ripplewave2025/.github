@@ -27,7 +27,7 @@ Clean, highly navigable, and mission-focused.
 
 To be absolutely honest, I am a bit of a shy guy who spends almost all his time sitting at a computer (my ass hurts, haha). But while I might be quiet in person, my code and my vision are loud.
 
-I am shifting away from a purely money-minded approach to a mission-focused one. My goal is to use my technical abilities to build self-sustaining ecosystems, preserve our cultural wisdom, and push the boundaries of what's possible for the people of Darjeeling—and eventually, the world.
+My goal is to use my technical abilities to build self-sustaining ecosystems, preserve our cultural wisdom, and push the boundaries of what's possible for the people of Darjeeling—and eventually, the world.
 
 "Building systems where the economy, learning, and local talent converge to create a self-sustainable future."
 
