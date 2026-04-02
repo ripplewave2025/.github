@@ -19,7 +19,7 @@ Last updated: April 02, 2026
   <br/><br/>
 
   <!-- TYPING ANIMATION – slower, more poetic, vision-focused -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=26&pause=1600&color=22C55E&center=true&vCenter=true&width=940&lines=Every%20Windows%20user%20in%20the%20Himalayas%20has%20their%20own%20Halo;From%20grandma%20in%20Kolkata%20to%20a%20student%20in%20Lamahatta;AI%20does%20the%20heavy%20lifting.%20Humans%20keep%20the%20wonder;Imagination%20of%20the%20Future%20%E2%80%94%20stories%20are%20blueprints" alt="Vision typing"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=26&pause=1600&color=22C55E&center=true&vCenter=true&width=940&lines=Every%20Windows%20user%20in%20the%20Himalayas%20has%20their%20own%20Halo;From%20grandma%20in%20Darjeeling%20to%20a%20student%20in%20Lamahatta;AI%20does%20the%20heavy%20lifting.%20Humans%20keep%20the%20wonder;Imagination%20of%20the%20Future%20%E2%80%94%20stories%20are%20blueprints" alt="Vision typing"/>
 
 </div>
 
