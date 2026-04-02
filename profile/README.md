@@ -20,7 +20,7 @@ Clean, highly navigable, zero money talk — pure mission & vision. Stats cards 
 
 ---
 
-### 👋 Namaste, I’m Upesh — building the optimistic 2050 future from Lamahatta, Darjeeling
+### I’m Upesh — building the optimistic 2050 future from Lamahatta, Darjeeling
 
 I once imagined phones that could play movies inside them (2010).  
 I lived remote work before the world did.  
@@ -119,8 +119,9 @@ I drop new thoughts, newsletters, and updates here whenever a 4 a.m. idea hits.
 ## 🤝 Let’s build something that outlives us
 
 - Every human message on X gets answered (I reply personally).  
-- Teachers, students, homestay owners, grandmas in Kolkata, village engineers — you are why Halo exists.  
+- Teachers, students, homestay owners, grandmas in Darjeeling, village engineers — you are why Halo exists.  
 - Want to run a pilot in your village? Open an issue on any repo or just DM.
+- Want to build a personalised voice agents where it can talk to your great great grand children like your own words and with your voice, just as you would speak to them. Not exactly you but.. You get the gist.
 
 Made with pine wind, stubborn optimism, and love for the universe — from a wooden balcony in Lamahatta, Darjeeling.
 
